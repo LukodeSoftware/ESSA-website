@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ translations['gallery_title'] }} - {{ translations['site_name'] }}{% endblock %}
+
+{% block content %}
+<!-- Page Banner -->
+<div class="hero-section" style="height: 40vh; min-height: 300px;">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="animate__animated animate__fadeInDown">{{ translations['gallery_title'] }}</h1>
+            <p class="animate__animated animate__fadeIn animate__delay-1s">{{ translations['gallery_subtitle'] }}</p>
+        </div>
+    </div>
+</div>
+
+<!-- Gallery Section -->
+<section class="section">
+    <div class="container">
+        <div class="section-title">
+            <h2>{{ translations['gallery_title'] }}</h2>
+        </div>
+        
+        <div class="gallery-container">
+            <!-- Gallery Items -->
+            <div class="gallery-item">
+                <img src="https://source.unsplash.com/random/600x400/?swimming,lesson" alt="Swimming Lesson" class="img-fluid">
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://source.unsplash.com/random/600x800/?swimming,training" alt="Swimming Training" class="img-fluid">
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://source.unsplash.com/random/600x400/?swimming,pool" alt="Swimming Pool" class="img-fluid">
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://source.unsplash.com/random/600x600/?swim,competition" alt="Swimming Competition" class="img-fluid">
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://source.unsplash.com/random/600x400/?swimmers,team" alt="Swimming Team" class="img-fluid">
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://source.unsplash.com/random/600x400/?swimming,coach" alt="Swimming Coach" class="img-fluid">
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://source.unsplash.com/random/600x800/?swimming,dive" alt="Swimming Dive" class="img-fluid">
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://source.unsplash.com/random/600x400/?swimming,children" alt="Children Swimming" class="img-fluid">
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://source.unsplash.com/random/600x600/?swimming,freestyle" alt="Freestyle Swimming" class="img-fluid">
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://source.unsplash.com/random/600x400/?swimming,butterfly" alt="Butterfly Swimming" class="img-fluid">
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://source.unsplash.com/random/600x400/?swimming,backstroke" alt="Backstroke Swimming" class="img-fluid">
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://source.unsplash.com/random/600x800/?swimming,breaststroke" alt="Breaststroke Swimming" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-img" src="">
+</div>
+
+<!-- CTA Section -->
+<section class="booking-section section">
+    <div class="container">
+        <div class="booking-content">
+            <h2>{{ translations['booking_title'] }}</h2>
+            <p>{{ translations['booking_desc'] }}</p>
+            <a href="{{ url_for('contact') }}" class="btn booking-btn">
+                <i class="far fa-calendar-check me-2"></i>{{ translations['booking_cta'] }}
+            </a>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

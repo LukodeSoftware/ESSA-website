@@ -1,0 +1,289 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ translations['site_name'] }} - {{ translations['site_subtitle'] }}{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="animate__animated animate__fadeInDown">{{ translations['hero_headline'] }}</h1>
+            <p class="animate__animated animate__fadeIn animate__delay-1s">{{ translations['site_subtitle'] }}</p>
+            <a href="{{ url_for('contact') }}" class="btn hero-btn animate__animated animate__fadeInUp animate__delay-1s">
+                <i class="fas fa-swimming-pool me-2"></i>{{ translations['hero_cta'] }}
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- What We Offer Section -->
+<section class="section" id="offer">
+    <div class="container">
+        <div class="section-title">
+            <h2>{{ translations['offer_title'] }}</h2>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="offer-item animate__animated animate__fadeInUp">
+                    <div class="offer-icon">
+                        <i class="fas fa-swimmer"></i>
+                    </div>
+                    <h3 class="offer-title">{{ translations['offer_1'] }}</h3>
+                    <p>{{ translations['site_subtitle'] }}</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="offer-item animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                    <div class="offer-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3 class="offer-title">{{ translations['offer_2'] }}</h3>
+                    <p>{{ translations['site_subtitle'] }}</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="offer-item animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+                    <div class="offer-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3 class="offer-title">{{ translations['offer_3'] }}</h3>
+                    <p>{{ translations['site_subtitle'] }}</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="offer-item animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                    <div class="offer-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3 class="offer-title">{{ translations['offer_4'] }}</h3>
+                    <p>{{ translations['site_subtitle'] }}</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="offer-item animate__animated animate__fadeInUp" data-wow-delay="0.8s">
+                    <div class="offer-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="offer-title">{{ translations['offer_5'] }}</h3>
+                    <p>{{ translations['site_subtitle'] }}</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="offer-item animate__animated animate__fadeInUp" data-wow-delay="1s">
+                    <div class="offer-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="offer-title">{{ translations['offer_6'] }}</h3>
+                    <p>{{ translations['site_subtitle'] }}</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-5">
+            <a href="{{ url_for('contact') }}" class="btn btn-primary btn-lg">
+                {{ translations['offer_cta'] }}
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Voucher Section -->
+<section class="voucher-section section" id="voucher">
+    <div class="container">
+        <div class="section-title">
+            <h2>{{ translations['voucher_title'] }}</h2>
+            <p>{{ translations['voucher_desc'] }}</p>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="voucher-card animate__animated animate__fadeInLeft">
+                    <div class="voucher-img"></div>
+                    <div class="voucher-content">
+                        <h3 class="voucher-title">{{ translations['voucher_type_1'] }}</h3>
+                        <div class="voucher-list">
+                            <div class="voucher-list-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>{{ translations['offer_1'] }}</span>
+                            </div>
+                            <div class="voucher-list-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>{{ translations['offer_3'] }}</span>
+                            </div>
+                            <div class="voucher-list-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>{{ translations['pricing_1person'] }}</span>
+                            </div>
+                        </div>
+                        <a href="{{ url_for('pricing') }}" class="btn btn-outline-primary btn-block">{{ translations['voucher_button'] }}</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="voucher-card animate__animated animate__fadeInUp">
+                    <div class="voucher-img"></div>
+                    <div class="voucher-content">
+                        <h3 class="voucher-title">{{ translations['voucher_type_2'] }}</h3>
+                        <div class="voucher-list">
+                            <div class="voucher-list-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>{{ translations['offer_1'] }}</span>
+                            </div>
+                            <div class="voucher-list-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>{{ translations['offer_3'] }}</span>
+                            </div>
+                            <div class="voucher-list-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>{{ translations['pricing_1person'] }}</span>
+                            </div>
+                        </div>
+                        <a href="{{ url_for('pricing') }}" class="btn btn-outline-primary btn-block">{{ translations['voucher_button'] }}</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4 mb-4 mx-auto">
+                <div class="voucher-card animate__animated animate__fadeInRight">
+                    <div class="voucher-img"></div>
+                    <div class="voucher-content">
+                        <h3 class="voucher-title">{{ translations['voucher_type_3'] }}</h3>
+                        <div class="voucher-list">
+                            <div class="voucher-list-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>{{ translations['offer_1'] }}</span>
+                            </div>
+                            <div class="voucher-list-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>{{ translations['offer_3'] }}</span>
+                            </div>
+                            <div class="voucher-list-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>{{ translations['pricing_2people'] }}</span>
+                            </div>
+                        </div>
+                        <a href="{{ url_for('pricing') }}" class="btn btn-outline-primary btn-block">{{ translations['voucher_button'] }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About School Section -->
+<section class="section" id="about-school">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="about-school-img animate__animated animate__fadeInLeft">
+                    <img src="https://source.unsplash.com/random/600x400/?swimming,teaching" alt="ESSA Swim School" class="img-fluid rounded">
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="about-school-content animate__animated animate__fadeInRight">
+                    <div class="section-title text-start">
+                        <h2>{{ translations['about_school_title'] }}</h2>
+                    </div>
+                    <p>{{ translations['about_school_text'] }}</p>
+                    
+                    <div class="about-guarantee">
+                        <h4>{{ translations['about_school_guarantee'] }}</h4>
+                        <div class="guarantee-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>{{ translations['about_school_point_1'] }}</span>
+                        </div>
+                        <div class="guarantee-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>{{ translations['about_school_point_2'] }}</span>
+                        </div>
+                        <div class="guarantee-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>{{ translations['about_school_point_3'] }}</span>
+                        </div>
+                    </div>
+                    
+                    <a href="{{ url_for('contact') }}" class="btn btn-primary mt-4">
+                        {{ translations['about_school_cta'] }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Locations & Schedule Section -->
+<section class="locations-section section" id="locations">
+    <div class="container">
+        <div class="section-title">
+            <h2>{{ translations['locations_title'] }}</h2>
+        </div>
+        
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <h4>{{ translations['schedule_heading'] }}</h4>
+                <ul class="schedule-list">
+                    <li>
+                        <span><i class="far fa-calendar-alt me-2"></i> {{ translations['schedule_weekdays'] }}</span>
+                    </li>
+                    <li>
+                        <span><i class="far fa-calendar-alt me-2"></i> {{ translations['schedule_saturday'] }}</span>
+                    </li>
+                    <li>
+                        <span><i class="far fa-calendar-alt me-2"></i> {{ translations['schedule_sunday'] }}</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="col-md-6">
+                <h4>{{ translations['locations_heading'] }}</h4>
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="location-card animate__animated animate__fadeInUp">
+                            <div class="location-img" style="background-image: url('https://source.unsplash.com/random/400x300/?swimming,pool');"></div>
+                            <div class="location-content">
+                                <h5 class="location-title">{{ translations['location_1'] }}</h5>
+                                <p class="location-address">{{ translations['location_1_address'] }}</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary">{{ translations['location_1_more'] }}</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 mb-4">
+                        <div class="location-card animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                            <div class="location-img" style="background-image: url('https://source.unsplash.com/random/400x300/?swimming,university');"></div>
+                            <div class="location-content">
+                                <h5 class="location-title">{{ translations['location_2'] }}</h5>
+                                <p class="location-address">{{ translations['location_2_address'] }}</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary">{{ translations['location_2_more'] }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="map-container" id="map"></div>
+    </div>
+</section>
+
+<!-- Booking Section -->
+<section class="booking-section section">
+    <div class="container">
+        <div class="booking-content">
+            <h2>{{ translations['booking_title'] }}</h2>
+            <p>{{ translations['booking_desc'] }}</p>
+            <a href="{{ url_for('contact') }}" class="btn booking-btn">
+                <i class="far fa-calendar-check me-2"></i>{{ translations['booking_cta'] }}
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

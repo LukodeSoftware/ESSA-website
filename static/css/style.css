@@ -1,0 +1,813 @@
+/* 
+* ESSA - Emi's Swim School Academy 
+* Custom CSS Styles
+*/
+
+:root {
+  /* Color palette - water themed */
+  --primary: #1a73e8;
+  --primary-dark: #0d47a1;
+  --primary-light: #42a5f5;
+  --secondary: #03a9f4;
+  --accent: #00c8ff;
+  --light-blue: #e3f2fd;
+  --dark-blue: #0d47a1;
+  --white: #ffffff;
+  --light-gray: #f8f9fa;
+  --gray: #6c757d;
+  --dark-gray: #343a40;
+  --black: #212529;
+  --success: #28a745;
+  --danger: #dc3545;
+  
+  /* Typography */
+  --font-family-base: 'Roboto', sans-serif;
+  --font-family-heading: 'Montserrat', sans-serif;
+}
+
+/* Global Styles */
+body {
+  font-family: var(--font-family-base);
+  color: var(--dark-gray);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  color: var(--primary-dark);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-dark);
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.btn-outline-primary {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section-title h2 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 50px;
+  height: 3px;
+  background: var(--primary);
+  transform: translateX(-50%);
+}
+
+.bg-light-blue {
+  background-color: var(--light-blue);
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+/* Navbar */
+.navbar {
+  transition: all 0.3s ease;
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: var(--font-family-heading);
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item {
+  position: relative;
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: var(--dark-gray);
+  font-weight: 500;
+  padding: 8px 15px !important;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--primary);
+}
+
+.navbar-nav .nav-link.active::after {
+  content: '';
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+  width: calc(100% - 30px);
+  height: 2px;
+  background-color: var(--primary);
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-shrink {
+  padding: 10px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+}
+
+.lang-selector {
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  background: linear-gradient(rgba(13, 71, 161, 0.7), rgba(13, 71, 161, 0.7)), url('https://source.unsplash.com/random/1600x900/?swimming,pool') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  color: var(--white);
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--white);
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 50px;
+  background-color: var(--accent);
+  border: 2px solid var(--accent);
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: transparent;
+  color: var(--white);
+  border-color: var(--white);
+}
+
+/* What We Offer */
+.offer-item {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.offer-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.offer-icon {
+  font-size: 3rem;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.offer-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Voucher Section */
+.voucher-section {
+  background-color: var(--light-blue);
+}
+
+.voucher-card {
+  background-color: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.voucher-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.voucher-img {
+  height: 200px;
+  background: url('https://source.unsplash.com/random/400x300/?swimming,voucher') no-repeat center center;
+  background-size: cover;
+}
+
+.voucher-content {
+  padding: 30px;
+}
+
+.voucher-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.voucher-list {
+  margin-bottom: 20px;
+}
+
+.voucher-list-item {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.voucher-list-item i {
+  color: var(--primary);
+  margin-right: 10px;
+}
+
+/* About School */
+.about-school-img {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.about-school-content {
+  padding: 30px;
+}
+
+.about-guarantee {
+  margin-top: 30px;
+}
+
+.guarantee-item {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.guarantee-item i {
+  color: var(--success);
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Locations & Schedule */
+.locations-section {
+  background-color: var(--light-blue);
+}
+
+.location-card {
+  background-color: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+.location-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.location-img {
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.location-content {
+  padding: 20px;
+}
+
+.location-title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.location-address {
+  color: var(--gray);
+  margin-bottom: 15px;
+}
+
+.schedule-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.schedule-list li {
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.schedule-list li:last-child {
+  border-bottom: none;
+}
+
+/* Booking Section */
+.booking-section {
+  background: linear-gradient(rgba(13, 71, 161, 0.9), rgba(13, 71, 161, 0.9)), url('https://source.unsplash.com/random/1600x900/?swimming,lesson') no-repeat fixed center center;
+  background-size: cover;
+  color: var(--white);
+}
+
+.booking-content {
+  text-align: center;
+}
+
+.booking-content h2 {
+  color: var(--white);
+}
+
+.booking-content p {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+.booking-btn {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 50px;
+  background-color: var(--white);
+  border: 2px solid var(--white);
+  color: var(--primary-dark);
+  transition: all 0.3s ease;
+}
+
+.booking-btn:hover {
+  background-color: transparent;
+  color: var(--white);
+}
+
+/* Gallery */
+.gallery-container {
+  column-count: 3;
+  column-gap: 15px;
+}
+
+@media (max-width: 992px) {
+  .gallery-container {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery-container {
+    column-count: 1;
+  }
+}
+
+.gallery-item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+  break-inside: avoid;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1050;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox-content {
+  position: relative;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.lightbox-img {
+  width: 100%;
+  height: auto;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+/* About Me */
+.about-img {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.achievement-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: var(--light-blue);
+  border-left: 3px solid var(--primary);
+  border-radius: 5px;
+}
+
+.achievement-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--primary-dark);
+}
+
+.achievement-date {
+  font-size: 0.9rem;
+  color: var(--gray);
+}
+
+/* Pricing */
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.pricing-table th, .pricing-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.pricing-table th {
+  background-color: var(--primary);
+  color: var(--white);
+  font-weight: 600;
+}
+
+.pricing-table tr:hover {
+  background-color: var(--light-blue);
+}
+
+.pricing-note {
+  font-size: 0.9rem;
+  color: var(--gray);
+  margin-top: 20px;
+}
+
+/* Contact */
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.contact-info-icon {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-right: 15px;
+  min-width: 30px;
+  text-align: center;
+}
+
+.contact-info-text h5 {
+  margin-bottom: 5px;
+}
+
+.contact-form .form-control {
+  height: auto;
+  padding: 15px;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.contact-form .form-control:focus {
+  border-color: var(--primary);
+  box-shadow: none;
+}
+
+.contact-form textarea.form-control {
+  min-height: 150px;
+}
+
+.contact-form-btn {
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: var(--primary);
+  border: 2px solid var(--primary);
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.contact-form-btn:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.map-container {
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--dark-blue);
+  color: var(--light-gray);
+  padding: 60px 0 30px;
+}
+
+.footer-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--white);
+}
+
+.footer-text {
+  margin-bottom: 20px;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--white);
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+  background-color: var(--primary);
+}
+
+.footer-links h4 {
+  color: var(--white);
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: var(--light-gray);
+  transition: all 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: var(--primary-light);
+  padding-left: 5px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 1199.98px) {
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section {
+    padding: 60px 0;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .navbar-collapse {
+    background-color: var(--white);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-nav .nav-link.active::after {
+    display: none;
+  }
+  
+  .offer-item, .location-card {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+  
+  .section-title h2 {
+    font-size: 1.8rem;
+  }
+  
+  .about-img, .about-school-img {
+    margin-bottom: 30px;
+  }
+  
+  .contact-info {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+  
+  .footer-links {
+    margin-top: 30px;
+  }
+}
+
+/* Animations */
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+.animate__fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.animate__fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.animate__fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.animate__fadeInRight {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
