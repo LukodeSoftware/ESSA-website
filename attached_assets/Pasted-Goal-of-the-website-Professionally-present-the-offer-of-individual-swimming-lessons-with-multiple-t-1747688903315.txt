@@ -1,0 +1,150 @@
+Goal of the website: Professionally present the offer of individual swimming lessons with multiple-time Polish swimming champion – Emilia. The site should encourage sign-ups and enable users to purchase lesson vouchers.
+
+🖼️ Homepage Elements:
+1. Logo and Name
+ESSA Logo
+
+Full name: Emi's Swim School Academy
+
+Subtitle: Swimming Lessons in Warsaw
+
+2. Navigation Menu
+Home
+
+About Me
+
+Gallery
+
+Pricing
+
+Contact
+
+[PL] / [EN] – language switch
+
+[GOOGLE] – link to Google Reviews or rating display
+
+🏊‍♀️ Hero Section
+Headline:
+Private swimming lessons with a multiple-time Polish champion!
+
+CTA (Call to Action):
+Button: Book a lesson
+
+✅ What We Offer
+Bullet list with icons or illustrations:
+
+Private swimming lessons in Warsaw
+
+Lessons for children and adults
+
+Swimming technique improvement
+
+Learning swimming elements (e.g. diving, turns)
+
+Preparation for swimming and triathlon competitions
+
+Preparation for fitness and swimming exams
+
+Extra CTA:
+Start training with a multiple-time Polish champion!
+
+🎁 Voucher Section
+Title: Swimming Lesson Voucher with a Champion
+
+Description:
+Give the gift of swimming – to yourself or someone you care about.
+Buy a voucher for 8 individual swimming lessons in Warsaw!
+
+Voucher types:
+
+8 x 30 minutes
+
+8 x 45 minutes
+
+For one or two people
+
+Link/Button: View pricing
+
+🏫 About the School Section
+Headline: ESSA Swim School – Enroll Today!
+
+Text:
+ESSA is the perfect place to start your swimming journey, improve your technique, or prepare for competitions.
+Our classes are tailored to all age groups and skill levels – from young children to adults.
+
+We guarantee:
+
+Experienced instructors
+
+Modern teaching methods
+
+Friendly and supportive atmosphere
+
+CTA Button: Sign up today
+
+📍 Locations & Schedule Section
+Headline: Where and When?
+
+Lesson hours:
+
+Monday–Friday: 6:00 PM – 8:00 PM
+
+Saturday: 11:00 AM – 8:00 PM
+
+Sunday: 12:00 PM – 8:00 PM
+
+Locations:
+
+Inflancka Swimming Center
+ul. Inflancka 8, 00-189 Warsaw
+
+[More about this location]
+
+Medical University of Warsaw Pool (WUM)
+ul. Księcia Trojdena 2C
+
+[More about this location]
+
+📅 Booking Section
+Headline: Book Your Lesson Today!
+
+Description:
+Improve your swimming technique with tailored private lessons for both kids and adults.
+
+CTA Button: Book a lesson
+
+📸 Gallery (separate page or homepage section)
+A collection of photos from lessons, competitions, trainings, etc.
+
+🧑‍🏫 About Me (separate page)
+Information about Emilia – multiple-time Polish swimming champion, her experience, achievements, and passion for teaching children and adults.
+
+💸 Pricing (separate page)
+Pricing table for:
+
+Individual lessons (30 min / 45 min)
+
+Vouchers (for 1 or 2 people)
+
+Training packages
+
+📞 Contact Section
+Phone: +48 505 045 367
+
+E-mail: info@essawaw.pl
+
+Contact form
+
+Embedded map with locations
+
+Links to social media (if any)
+
+🔐 Footer & Extras
+Privacy Policy – link in footer
+
+© 2025 ESSA Emi's Swim School Academy – in footer
+
+Responsive Design (mobile-friendly)
+
+SEO: Local keywords such as “swimming lessons Warsaw”, “swimming lessons for kids Warsaw”, “private swimming coach Warsaw”
+
