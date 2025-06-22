@@ -1,15 +1,10 @@
-/* 
-* ESSA - Emi's Swim School Academy 
-* Custom CSS Styles
-*//* Color palette - water themed */
-
 :root {
-  --primary: #F06292; /* Accent/CTA Pink */
   --primary-light: #B3E5FC; /* Lighter Background Blue */
   --primary-dark: #0d47a1;
-  --primary-light: #42a5f5;
   --secondary: #03a9f4;
   --accent: #00c8ff;
+  --highlight-color: #F06292; /* Accent/CTA Pink */
+  --highlight-hover: #EC407A; /* Darker: #D81B60*/
   --light-blue: #e3f2fd;
   --dark-blue: #0d47a1;
   --white: #ffffff;
@@ -38,35 +33,39 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--primary-dark);
 }
 
+h1 {
+  color: white;
+}
+
 a {
-  color: var(--primary); /* Use primary for links */
+  color: var(--highlight-color); /* Use primary for links */
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 a:hover {
-  color: var(--primary-dark); /* Use primary-dark for link hover */
+  color: var(--highlight-hover); /* Use primary-dark for link hover */
   text-decoration: none;
 }
 
 .btn-primary {
-  background-color: var(--primary); /* Use primary for primary buttons */
-  border-color: var(--primary); /* Use primary for primary buttons border */
+  background-color: var(--highlight-color); /* Use primary for primary buttons */
+  border-color: var(--highlight-color); /* Use primary for primary buttons border */
 }
 
 .btn-primary:hover {
-  background-color: var(--primary-dark); /* Use primary-dark for primary button hover */
-  border-color: var(--primary-dark); /* Use primary-dark for primary button hover border */
+  background-color: var(--highlight-hover); /* Use primary-dark for primary button hover */
+  border-color: var(--highlight-color); /* Use primary-dark for primary button hover border */
 }
 
 .btn-outline-primary {
-  color: var(--primary);
-  border-color: var(--primary);
+  color: var(--highlight-color);
+  border-color: var(--highlight-color);
 }
 
 .btn-outline-primary:hover {
-  background-color: var(--primary); /* Use primary for outline primary button hover */
-  border-color: var(--primary); /* Use primary for outline primary button hover border */
+  background-color: var(--highlight-hover); /* Use primary for outline primary button hover */
+  border-color: var(--highlight-color); /* Use primary for outline primary button hover border */
 }
 
 .section {
@@ -92,8 +91,24 @@ a:hover {
   bottom: -10px;
   width: 50px;
   height: 3px;
-  background: var(--primary); /* Use primary for section title underline */
+  background: var(--highlight-color); /* Use primary for section title underline */
   transform: translateX(-50%);
+}
+
+.wave-section {
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+}
+
+.wave-section.reverse {
+    transform: rotate(180deg);
+}
+
+.wave-svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .bg-light-blue {
@@ -101,13 +116,14 @@ a:hover {
 }
 
 .text-primary {
-  color: var(--primary) !important; /* Use primary for text-primary */
+  color: var(--highlight-color) !important; /* Use primary for text-primary */
 }
 
 /* Navbar */
 .navbar {
   transition: all 0.3s ease;
   padding: 15px 0;
+  background: white;
 }
 
 .navbar-brand {
@@ -131,7 +147,7 @@ a:hover {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: var(--primary);
+  color: var(--highlight-color);
 }
 
 .navbar-nav .nav-link.active::after {
@@ -141,7 +157,7 @@ a:hover {
   bottom: 0;
   width: calc(100% - 30px);
   height: 2px;
-  background-color: var(--primary); /* Use primary for active nav link underline */
+  background-color: var(--highlight-color); /* Use primary for active nav link underline */
 }
 
 .navbar-toggler {
@@ -164,6 +180,18 @@ a:hover {
   margin-left: 15px;
 }
 
+.social-links a {
+    color: var(--text-muted);
+    font-size: 1.2rem;
+    margin-left: 15px;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--highlight-color);
+    transform: translateY(-3px);
+}
+
 /* Hero Section */
 .hero-section {
   position: relative; /* Darker Background for Hero overlay */
@@ -174,6 +202,7 @@ a:hover {
   display: flex;
   align-items: center;
   color: var(--white);
+  background-image: url('/static/svg/image.png');
 }
 
 .hero-content {
@@ -200,14 +229,14 @@ a:hover {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 50px;
-  background-color: var(--primary); /* Use primary (Accent/CTA Pink) for Hero button */
-  border: 2px solid var(--accent);
+  background-color: var(--highlight-color);
   color: var(--white);
   transition: all 0.3s ease;
 }
 
 .hero-btn:hover {
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color: var(--highlight-hover);
   color: var(--white);
   border-color: var(--white);
 }
@@ -219,6 +248,7 @@ a:hover {
   padding: 20px;
   border-radius: 5px;
   transition: all 0.3s ease;
+  background-color: var(--light-blue);
 }
 
 .offer-item:hover {
@@ -228,7 +258,7 @@ a:hover {
 
 .offer-icon {
   font-size: 3rem; /* Use primary for offer icons */
-  color: var(--primary);
+  color: var(--highlight-color);
   margin-bottom: 20px;
 }
 
@@ -282,7 +312,7 @@ a:hover {
 }
 
 .voucher-list-item i {
-  color: var(--primary); /* Use primary for voucher list icons */
+  color: var(--highlight-color); /* Use primary for voucher list icons */
   margin-right: 10px;
 }
 
@@ -395,14 +425,14 @@ a:hover {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 50px;
-  background-color: var(--white); /* Use white for booking button background */
-  border: 2px solid var(--white); /* Use white for booking button border */
-  color: var(--primary-dark);
+  background-color: var(--highlight-color); /* Use white for booking button background */
+  /* border: 2px solid var(--white); Use white for booking button border */
+  color: white;
   transition: all 0.3s ease;
 }
 
 .booking-btn:hover {
-  background-color: transparent;
+  background-color: var(--highlight-hover);
   color: var(--white);
 }
 
@@ -489,7 +519,7 @@ a:hover {
   margin-bottom: 20px;
   padding: 15px; /* Lighter Background for achievement items */
   background-color: var(--light-blue);
-  border-left: 3px solid var(--primary);
+  border-left: 3px solid var(--highlight-color);
   border-radius: 5px;
 }
 
@@ -518,7 +548,7 @@ a:hover {
 }
 
 .pricing-table th {
-  background-color: var(--primary); /* Use primary for pricing table headers */
+  background-color: var(--highlight-color); /* Use primary for pricing table headers */
   color: var(--white); /* Use white for pricing table header text */
   font-weight: 600;
 }
@@ -546,7 +576,7 @@ a:hover {
 
 .contact-info-icon {
   font-size: 1.5rem;
-  color: var(--primary); /* Use primary for contact info icons */
+  color: var(--highlight-color); /* Use primary for contact info icons */
   margin-right: 15px;
   min-width: 30px;
   text-align: center;
@@ -565,7 +595,7 @@ a:hover {
 }
 
 .contact-form .form-control:focus {
-  border-color: var(--primary);
+  border-color: var(--highlight-color);
   box-shadow: none;
 }
 
@@ -579,8 +609,8 @@ a:hover {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 5px;
-  background-color: var(--primary); /* Use primary for contact form button */
-  border: 2px solid var(--primary); /* Use primary for contact form button border */
+  background-color: var(--highlight-color); /* Use primary for contact form button */
+  border: 2px solid var(--highlight-color); /* Use primary for contact form button border */
   color: var(--white);
   transition: all 0.3s ease;
 }
@@ -629,7 +659,7 @@ a:hover {
 }
 
 .footer-social a:hover {
-  background-color: var(--primary); /* Use primary for social icon hover */
+  background-color: var(--highlight-color); /* Use primary for social icon hover */
 }
 
 .footer-links h4 {
@@ -652,9 +682,19 @@ a:hover {
   transition: all 0.3s ease;
 }
 
+.footer-links ul li .btn {
+  color: white;
+  background-color: var(--highlight-color);
+  transition: all 0.3s ease;
+}
+
 .footer-links ul li a:hover {
-  color: var(--primary-light); /* Use primary-light for footer link hover */
-  padding-left: 5px;
+  color: var(--highlight-color);
+}
+
+.footer-links ul li .btn:hover {
+  color: white;
+  background-color: var(--highlight-hover);
 }
 
 .footer-bottom {

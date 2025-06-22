@@ -6,12 +6,19 @@
 <!-- Hero Section -->
 <section class="hero-section" id="home">
     <div class="container">
-        <div class="hero-content">
-            <h1 class="animate__animated animate__fadeInDown">{{ translations['hero_headline'] }}</h1>
-            <p class="animate__animated animate__fadeIn animate__delay-1s">{{ translations['site_subtitle'] }}</p>
-            <a href="{{ url_for('contact') }}" class="btn hero-btn animate__animated animate__fadeInUp animate__delay-1s">
-                <i class="fas fa-swimming-pool me-2"></i>{{ translations['hero_cta'] }}
-            </a>
+        <div class="row align-items-center min-vh-100">
+            <div class="col-lg-6">
+                <h1 class="animate__animated animate__fadeInDown">{{ translations['hero_headline'] }}</h1>
+                <p class="animate__animated animate__fadeIn animate__delay-1s">{{ translations['site_subtitle'] }}</p>
+                <a href="{{ url_for('contact') }}" class="btn hero-btn animate__animated animate__fadeInUp animate__delay-1s">
+                    <i class="fas fa-swimming-pool me-2"></i>{{ translations['hero_cta'] }}
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <!-- <div class="hero-image">
+                    <img src="{{ url_for('static', filename='svg/image.png') }}" alt="Swimming" class="img-fluid">
+                </div> -->
+            </div>
         </div>
     </div>
 </section>
@@ -89,90 +96,6 @@
             <a href="{{ url_for('contact') }}" class="btn btn-primary btn-lg">
                 {{ translations['offer_cta'] }}
             </a>
-        </div>
-    </div>
-</section>
-
-<!-- Voucher Section -->
-<section class="voucher-section section" id="voucher">
-    <div class="container">
-        <div class="section-title">
-            <h2>{{ translations['voucher_title'] }}</h2>
-            <p>{{ translations['voucher_desc'] }}</p>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="voucher-card animate__animated animate__fadeInLeft">
-                    <div class="voucher-img"></div>
-                    <div class="voucher-content">
-                        <h3 class="voucher-title">{{ translations['voucher_type_1'] }}</h3>
-                        <div class="voucher-list">
-                            <div class="voucher-list-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>{{ translations['offer_1'] }}</span>
-                            </div>
-                            <div class="voucher-list-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>{{ translations['offer_3'] }}</span>
-                            </div>
-                            <div class="voucher-list-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>{{ translations['pricing_1person'] }}</span>
-                            </div>
-                        </div>
-                        <a href="{{ url_for('pricing') }}" class="btn btn-outline-primary btn-block">{{ translations['voucher_button'] }}</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="voucher-card animate__animated animate__fadeInUp">
-                    <div class="voucher-img"></div>
-                    <div class="voucher-content">
-                        <h3 class="voucher-title">{{ translations['voucher_type_2'] }}</h3>
-                        <div class="voucher-list">
-                            <div class="voucher-list-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>{{ translations['offer_1'] }}</span>
-                            </div>
-                            <div class="voucher-list-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>{{ translations['offer_3'] }}</span>
-                            </div>
-                            <div class="voucher-list-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>{{ translations['pricing_1person'] }}</span>
-                            </div>
-                        </div>
-                        <a href="{{ url_for('pricing') }}" class="btn btn-outline-primary btn-block">{{ translations['voucher_button'] }}</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-6 col-lg-4 mb-4 mx-auto">
-                <div class="voucher-card animate__animated animate__fadeInRight">
-                    <div class="voucher-img"></div>
-                    <div class="voucher-content">
-                        <h3 class="voucher-title">{{ translations['voucher_type_3'] }}</h3>
-                        <div class="voucher-list">
-                            <div class="voucher-list-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>{{ translations['offer_1'] }}</span>
-                            </div>
-                            <div class="voucher-list-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>{{ translations['offer_3'] }}</span>
-                            </div>
-                            <div class="voucher-list-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>{{ translations['pricing_2people'] }}</span>
-                            </div>
-                        </div>
-                        <a href="{{ url_for('pricing') }}" class="btn btn-outline-primary btn-block">{{ translations['voucher_button'] }}</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>

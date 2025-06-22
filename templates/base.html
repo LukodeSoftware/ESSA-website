@@ -10,7 +10,7 @@
     <meta name="keywords" content="swimming lessons Warsaw, private swimming coach Warsaw, swimming lessons for kids Warsaw, swim school">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='svg/logo.svg') }}">
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='svg/logo-ESSA.png') }}">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,7 +36,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="{{ url_for('index') }}">
-                <img src="{{ url_for('static', filename='svg/logo.svg') }}" alt="ESSA Logo" height="40">
+                <img src="{{ url_for('static', filename='svg/logo-ESSA.png') }}" alt="ESSA Logo" height="70">
                 {{ translations['site_name'] }}
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,25 +62,49 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {% if session.lang == 'pl' %}
-                                <span class="flag-icon">🇵🇱</span> PL
+                                PL
                             {% else %}
-                                <span class="flag-icon">🇬🇧</span> EN
+                                EN
                             {% endif %}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="languageDropdown">
                             <li>
                                 <a class="dropdown-item {% if session.lang == 'en' %}active{% endif %}" href="{{ url_for('set_language', lang='en') }}">
-                                    <span class="flag-icon">🇬🇧</span> English
+                                    <span class="flag-icon">
+                                        <svg id="flag-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" width="20" height="10">
+                                            <!-- Flaga UK -->
+                                            <clipPath id="s"><path d="M0,0 v30 h60 v-30 z"/></clipPath>
+                                            <use xlink:href="#s" fill="#012169"/>
+                                            <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/>
+                                            <path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#s)" stroke="#C8102E" stroke-width="4"/>
+                                            <path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/>
+                                            <path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/>
+                                        </svg>
+                                    </span> English
                                 </a>
                             </li>
                             <li>
                                 <a class="dropdown-item {% if session.lang == 'pl' %}active{% endif %}" href="{{ url_for('set_language', lang='pl') }}">
-                                    <span class="flag-icon">🇵🇱</span> Polski
+                                    <span class="flag-icon">
+                                        <svg id="flag-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" width="20" height="10">
+                                            <!-- Flaga Polski -->
+                                            <rect width="60" height="15" fill="white"></rect>
+                                            <rect y="15" width="60" height="15" fill="#DC143C"></rect>
+                                        </svg>
+                                    </span> Polski
                                 </a>
                             </li>
                         </ul>
                     </li>
                 </ul>
+                <!-- Social Media Icons -->
+                <div class="text-center text-md-end mt-3 mt-md-0">
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61575671537574" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/essa-warsaw/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>                        
+                        <a href="mailto:contact@lukode.net" aria-label="Email"><i class="fas fa-envelope" target="_blank"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -113,14 +137,14 @@
     
     <!-- Main Content -->
     {% block content %}{% endblock %}
-    
+
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                     <div class="footer-logo">
-                        <img src="{{ url_for('static', filename='svg/logo.svg') }}" alt="ESSA Logo" height="40" class="me-2">
+                        <img src="{{ url_for('static', filename='svg/logo-ESSA.png') }}" alt="ESSA Logo" height="70" class="me-2">
                         ESSA
                     </div>
                     <p class="footer-text">{{ translations['site_subtitle'] }}</p>
@@ -133,7 +157,7 @@
                 
                 <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
                     <div class="footer-links">
-                        <h4>Links</h4>
+                        <h4>{{ translations['links_header'] }}</h4>
                         <ul>
                             <li><a href="{{ url_for('index') }}">{{ translations['nav_home'] }}</a></li>
                             <li><a href="{{ url_for('about') }}">{{ translations['nav_about'] }}</a></li>
@@ -146,7 +170,7 @@
                 
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                     <div class="footer-links">
-                        <h4>{{ translations['locations_title'] }}</h4>
+                        <h4>{{ translations['locations_title_footer'] }}</h4>
                         <ul>
                             <li>{{ translations['location_1'] }}<br>{{ translations['location_1_address'] }}</li>
                             <li class="mt-3">{{ translations['location_2'] }}<br>{{ translations['location_2_address'] }}</li>
