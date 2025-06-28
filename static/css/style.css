@@ -210,7 +210,7 @@ a:hover {
   display: flex;
   align-items: center;
   color: var(--white);
-  background-image: url('/static/svg/image.png');
+  background-image: url('/static/images/image.png');
   background-size: cover;
   background-position: center center;
 }
