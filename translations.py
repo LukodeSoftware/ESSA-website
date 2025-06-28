@@ -86,6 +86,17 @@ def get_translations(lang):
             'pricing_1person': "For 1 person",
             'pricing_2people': "For 2 people",
 
+            # FAQ
+            'faq-title': "Frequently Asked Questions",
+            'faq-question-1': "What should I bring to my swimming lesson?",
+            'faq-answer-1': "Please bring your swimming suit, a towel, swimming cap, and goggles. It's also good to have flip-flops for pool area. All other equipment like kickboards or pull buoys will be provided during the lesson.",
+            'faq-question-2': "How do I cancel or reschedule a lesson?",
+            'faq-answer-2': "You can cancel or reschedule your lesson by contacting us via phone or email at least 24 hours before your scheduled lesson. Cancellations with less than 24 hours notice will be charged as a completed lesson.",
+            'faq-question-3': "How long does it take to learn to swim?",
+            'faq-answer-3': "Learning to swim is a very individual process. Some students feel comfortable in water after just a few lessons, while others may take more time. Generally, with regular lessons (once per week), most students can learn basic swimming skills within 2-3 months.",
+            'faq-question-4': "What length of lesson is recommended to start with? 30 or 45 minutes?",
+            'faq-answer-4': "At first, 30-minute lessons are best – they allow you to gradually get used to the water and the new environment. As your comfort and fitness improve, you can easily extend the classes to 45 minutes.",
+
             # Contact
             'contact_title': "Contact Us",
             'contact_phone': "Phone",
@@ -192,6 +203,17 @@ def get_translations(lang):
             'pricing_packages': "Pakiety treningowe",
             'pricing_1person': "Dla 1 osoby",
             'pricing_2people': "Dla 2 osób",
+
+            # FAQ
+            'faq-title': "Najczęściej Zadawane Pytania",
+            'faq-question-1': "Co powinienem przynieść na lekcję pływania?",
+            'faq-answer-1': "Proszę zabrać ze sobą strój kąpielowy, ręcznik, czepek i gogle. Dobrze jest też mieć klapki na basenie. Cały pozostały sprzęt, taki jak deski do pływania lub bojki, będzie zapewniony podczas lekcji.",
+            'faq-question-2': "Jak odwołać lub przełożyć lekcję?",
+            'faq-answer-2': "Możesz anulować lub przełożyć lekcję, kontaktując się z nami telefonicznie lub e-mailem co najmniej 24 godziny przed zaplanowaną lekcją. Anulacje dokonane z wyprzedzeniem krótszym niż 24 godziny będą rozliczane jako ukończona lekcja.",
+            'faq-question-3': "Ile czasu zajmuje nauczenie się pływania?",
+            'faq-answer-3': "Nauka pływania to bardzo indywidualny proces. Niektórzy uczniowie czują się komfortowo w wodzie już po kilku lekcjach, podczas gdy inni potrzebują więcej czasu. Zazwyczaj, przy regularnych lekcjach (raz w tygodniu), większość uczniów może nauczyć się podstawowych umiejętności pływania w ciągu 2-3 miesięcy.",
+            'faq-question-4': "Jaka długość lekcji jest polecana początek? 30 czy 45 minut?",
+            'faq-answer-4': "Na początek najlepiej sprawdzają się lekcje 30-minutowe – pozwalają stopniowo przyzwyczaić się do wody i nowego środowiska. Gdy wzrośnie komfort i kondycja, można śmiało wydłużyć zajęcia do 45 minut.",
 
             # Contact
             'contact_title': "Kontakt",
