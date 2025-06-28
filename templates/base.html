@@ -10,7 +10,7 @@
     <meta name="keywords" content="swimming lessons Warsaw, private swimming coach Warsaw, swimming lessons for kids Warsaw, swim school">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='svg/logo-ESSA.png') }}">
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='images/logo-ESSA.png') }}">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,7 +36,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="{{ url_for('index') }}">
-                <img src="{{ url_for('static', filename='svg/logo-ESSA.png') }}" alt="ESSA Logo">
+                <img src="{{ url_for('static', filename='images/logo-ESSA.png') }}" alt="ESSA Logo">
                 <div class="ms-2">
                     <div>{{ translations['site_name'] }}</div>
                     <div class="subtitle">{{ translations['site_name_subtitle'] }}</div>
@@ -148,7 +148,9 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                     <div class="footer-logo">
-                        <img src="{{ url_for('static', filename='svg/logo-ESSA.png') }}" alt="ESSA Logo" height="70" class="me-2">
+
+
+                        <img src="{{ url_for('static', filename='images/logo-ESSA.png') }}" alt="ESSA Logo" height="70" class="me-2">
                         {{ translations['site_name'] }}
                     </div>
                     <p class="footer-text">{{ translations['site_subtitle'] }}</p>
