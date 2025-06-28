@@ -19,102 +19,153 @@
             <h2>{{ translations['pricing_title'] }}</h2>
         </div>
         
-        <!-- Individual Lessons -->
-        <div class="row mb-5">
-            <div class="col-lg-8 mx-auto">
-                <h3 class="mb-4">{{ translations['pricing_individual'] }}</h3>
-                
-                <div class="table-responsive">
+        <div class="row">
+ <div class="col-md-6 mb-5">
+ <h3 class="mb-4 text-center">ul. Inflancka</h3>
+                <h4 class="mb-3">Ceny podstawowe</h4>
+
+ <div class="table-responsive">
                     <table class="pricing-table">
                         <thead>
                             <tr>
-                                <th>{{ translations['pricing_title'] }}</th>
-                                <th>{{ translations['pricing_30min'] }}</th>
-                                <th>{{ translations['pricing_45min'] }}</th>
+                                <th>Czas</th>
+ <th>1 osoba</th>
+ <th>2 osoby</th>
+                            </tr>
+                        </thead>
+ <tbody>
+ <tr>
+ <td>30 minut</td>
+ <td>170 zł</td>
+ <td>320 zł (160 zł/os.)</td>
+                            </tr>
+ <tr>
+ <td>45 minut</td>
+ <td>210 zł</td>
+ <td>400 zł (200 zł/os.)</td>
+                            </tr>
+ <tr>
+ <td>60 minut</td>
+ <td>250 zł</td>
+ <td>480 zł (240 zł/os.)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+ </div>
+
+ <h4 class="mb-3 mt-5">Pakiety 5 lub 10 zajęć do opłaty z góry</h4>
+ <div class="table-responsive">
+    <table class="pricing-table">
+                        <thead>
+                            <tr>
+                                <th>Czas</th>
+                                <th>5 zajęć (1 os.)</th>
+                                <th>10 zajęć (1 os.)</th>
+                                <th>5 zajęć (2 os.)</th>
+                                <th>10 zajęć (2 os.)</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>{{ translations['pricing_1person'] }}</td>
-                                <td>150 PLN</td>
-                                <td>200 PLN</td>
+                                <td>30 minut</td>
+                                <td>850 zł (5x170zł)</td>
+                                <td>1700 zł (10x170zł)</td>
+                                <td>1600 zł (5x320zł)</td>
+                                <td>3200 zł (10x320zł)</td>
                             </tr>
                             <tr>
-                                <td>{{ translations['pricing_2people'] }}</td>
-                                <td>220 PLN</td>
-                                <td>300 PLN</td>
+                                <td>45 minut</td>
+                                <td>1050 zł (5x210zł)</td>
+                                <td>2100 zł (10x210zł)</td>
+                                <td>2000 zł (5x400zł)</td>
+                                <td>4000 zł (10x400zł)</td>
+                            </tr>
+                            <tr>
+                                <td>60 minut</td>
+                                <td>1250 zł (5x250zł)</td>
+                                <td>2500 zł (10x250zł)</td>
+                                <td>2400 zł (5x480zł)</td>
+                                <td>4800 zł (10x480zł)</td>
                             </tr>
                         </tbody>
                     </table>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Vouchers -->
-        <div class="row mb-5">
-            <div class="col-lg-8 mx-auto">
-                <h3 class="mb-4">{{ translations['pricing_vouchers'] }}</h3>
-                
-                <div class="table-responsive">
+ </div>
+ </div>
+
+ <div class="col-md-6 mb-5">
+ <h3 class="mb-4 text-center">ul. Trojdena</h3>
+ <h4 class="mb-3">Ceny podstawowe</h4>
+ <div class="table-responsive">
                     <table class="pricing-table">
                         <thead>
                             <tr>
-                                <th>{{ translations['pricing_title'] }}</th>
-                                <th>8 x {{ translations['pricing_30min'] }}</th>
-                                <th>8 x {{ translations['pricing_45min'] }}</th>
+                                <th>Czas</th>
+                                <th>1 osoba</th>
+                                <th>2 osoby</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>{{ translations['pricing_1person'] }}</td>
-                                <td>1100 PLN (save 100 PLN)</td>
-                                <td>1500 PLN (save 100 PLN)</td>
+                                <td>30 minut</td>
+                                <td>190 zł</td>
+                                <td>360 zł (180 zł/os.)</td>
                             </tr>
                             <tr>
-                                <td>{{ translations['pricing_2people'] }}</td>
-                                <td>1650 PLN (save 110 PLN)</td>
-                                <td>2250 PLN (save 150 PLN)</td>
+                                <td>45 minut</td>
+                                <td>230 zł</td>
+                                <td>440 zł (220 zł/os.)</td>
+                            </tr>
+                            <tr>
+                                <td>60 minut</td>
+                                <td>270 zł</td>
+                                <td>520 zł (260 zł/os.)</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-            </div>
-        </div>
-        
-        <!-- Training Packages -->
-        <div class="row mb-5">
-            <div class="col-lg-8 mx-auto">
-                <h3 class="mb-4">{{ translations['pricing_packages'] }}</h3>
-                
+
+ <h4 class="mb-3 mt-5">Pakiety 5 lub 10 zajęć do opłaty z góry</h4>
                 <div class="table-responsive">
-                    <table class="pricing-table">
+    <table class="pricing-table">
                         <thead>
                             <tr>
-                                <th>{{ translations['pricing_title'] }}</th>
-                                <th>4 {{ translations['pricing_30min'] }}</th>
-                                <th>4 {{ translations['pricing_45min'] }}</th>
+                                <th>Czas</th>
+                                <th>5 zajęć (1 os.)</th>
+                                <th>10 zajęć (1 os.)</th>
+                                <th>5 zajęć (2 os.)</th>
+                                <th>10 zajęć (2 os.)</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>{{ translations['pricing_1person'] }}</td>
-                                <td>560 PLN (save 40 PLN)</td>
-                                <td>760 PLN (save 40 PLN)</td>
+                                <td>30 minut</td>
+                                <td>850 zł (5x170zł)</td>
+                                <td>1700 zł (10x170zł)</td>
+                                <td>1600 zł (5x320zł)</td>
+                                <td>3200 zł (10x320zł)</td>
                             </tr>
                             <tr>
-                                <td>{{ translations['pricing_2people'] }}</td>
-                                <td>840 PLN (save 40 PLN)</td>
-                                <td>1140 PLN (save 60 PLN)</td>
+                                <td>45 minut</td>
+                                <td>1050 zł (5x210zł)</td>
+                                <td>2100 zł (10x210zł)</td>
+                                <td>2000 zł (5x400zł)</td>
+                                <td>4000 zł (10x400zł)</td>
+                            </tr>
+                            <tr>
+                                <td>60 minut</td>
+                                <td>1250 zł (5x250zł)</td>
+                                <td>2500 zł (10x250zł)</td>
+                                <td>2400 zł (5x480zł)</td>
+                                <td>4800 zł (10x480zł)</td>
                             </tr>
                         </tbody>
                     </table>
-                </div>
-                
-                <p class="pricing-note mt-4">
-                    <i class="fas fa-info-circle me-2"></i> All packages must be used within 2 months from the first lesson. Cancellations must be made at least 24 hours in advance, otherwise the lesson is counted as completed.
-                </p>
-            </div>
         </div>
+            </div>
+    </div>
+    <p class="pricing-note mt-4">
+        <i class="fas fa-info-circle me-2"></i> All packages must be used within 2 months from the first lesson. Cancellations must be madeat least 24 hours in advance, otherwise the lesson is counted as completed.
+    </p>
 </section>
 
 <!-- FAQ Section -->
