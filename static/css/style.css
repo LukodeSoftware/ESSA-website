@@ -133,6 +133,10 @@ a:hover {
   color: var(--primary-dark);
 }
 
+.navbar-brand img {
+  height: 70px;
+}
+
 .subtitle {
   font-size: 1rem;
 }
@@ -199,8 +203,7 @@ a:hover {
 
 /* Hero Section */
 .hero-section {
-  position: relative; /* Darker Background for Hero overlay */
-  background: linear-gradient(rgba(13, 71, 161, 0.7), rgba(13, 71, 161, 0.7)), url('https://source.unsplash.com/random/1600x900/?swimming,pool') no-repeat center center;
+  position: relative;
   background-size: cover;
   height: 100vh;
   min-height: 600px;
@@ -208,7 +211,10 @@ a:hover {
   align-items: center;
   color: var(--white);
   background-image: url('/static/svg/image.png');
+  background-size: cover;
+  background-position: center center;
 }
+
 
 .hero-content {
   text-align: center;
@@ -440,6 +446,12 @@ a:hover {
   background-color: var(--highlight-hover);
   color: var(--white);
 }
+
+.privacy-policy-container {
+  position: relative;
+  align-items: center;
+  margin: 150px 50px 50px 50px;
+  }
 
 /* Gallery */
 .gallery-container {
@@ -764,6 +776,18 @@ a:hover {
 }
 
 @media (max-width: 575.98px) {
+  .navbar-brand {
+  font-size: 0.7rem;
+  }
+
+  .navbar-brand img {
+    height: 50px;
+  }
+
+  .subtitle {
+  font-size: 0.7rem;
+  }
+
   .hero-content h1 {
     font-size: 1.8rem;
   }

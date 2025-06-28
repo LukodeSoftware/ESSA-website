@@ -36,11 +36,11 @@ def get_translations(lang):
             'voucher_button': "View pricing",
 
             # About School
-            'about_school_title': "ESSA Swim School – Enroll Today!",
+            'about_school_title': "ESSA Swim School Warsaw – Enroll Today!",
             'about_school_text': "ESSA is the perfect place to start your swimming journey, improve your technique, or prepare for competitions. Our classes are tailored to all age groups and skill levels – from young children to adults.",
             'about_school_guarantee': "We guarantee:",
             'about_school_point_1': "Experienced instructors",
-            'about_school_point_2': "Modern teaching methods",
+            'about_school_point_2': "Effective teaching methods",
             'about_school_point_3': "Friendly and supportive atmosphere",
             'about_school_cta': "Sign up today",
 
@@ -145,11 +145,11 @@ def get_translations(lang):
             'voucher_button': "Zobacz cennik",
 
             # About School
-            'about_school_title': "ESSA Swim School – Zapisz się już dziś!",
+            'about_school_title': "ESSA Nauka Pływania Warszawa – Zapisz się już dziś!",
             'about_school_text': "ESSA to idealne miejsce, aby rozpocząć swoją przygodę z pływaniem, poprawić technikę lub przygotować się do zawodów. Nasze zajęcia są dostosowane do wszystkich grup wiekowych i poziomów umiejętności – od małych dzieci po dorosłych.",
             'about_school_guarantee': "Gwarantujemy:",
             'about_school_point_1': "Doświadczonych instruktorów",
-            'about_school_point_2': "Nowoczesne metody nauczania",
+            'about_school_point_2': "Skuteczne metody nauczania",
             'about_school_point_3': "Przyjazną i wspierającą atmosferę",
             'about_school_cta': "Zapisz się dziś",
 
