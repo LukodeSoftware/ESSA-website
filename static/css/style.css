@@ -129,7 +129,12 @@ a:hover {
 .navbar-brand {
   font-weight: 700;
   font-family: var(--font-family-heading);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  color: var(--primary-dark);
+}
+
+.subtitle {
+  font-size: 1rem;
 }
 
 .navbar-nav .nav-item {

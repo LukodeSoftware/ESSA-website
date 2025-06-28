@@ -35,9 +35,12 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="{{ url_for('index') }}">
+            <a class="navbar-brand d-flex align-items-center" href="{{ url_for('index') }}">
                 <img src="{{ url_for('static', filename='svg/logo-ESSA.png') }}" alt="ESSA Logo" height="70">
-                {{ translations['site_name'] }}
+                <div class="ms-2">
+                    <div>{{ translations['site_name'] }}</div>
+                    <div class="subtitle">{{ translations['site_name_subtitle'] }}</div>
+                </div>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -100,9 +103,10 @@
                 <!-- Social Media Icons -->
                 <div class="text-center text-md-end mt-3 mt-md-0">
                     <div class="social-links">
-                        <a href="https://www.facebook.com/profile.php?id=61575671537574" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/essa-warsaw/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>                        
-                        <a href="mailto:contact@lukode.net" aria-label="Email"><i class="fas fa-envelope" target="_blank"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61561171492337" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/essawarsaw/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>                        
+                        <a href="mailto:info@essawaw.pl" aria-label="Email"><i class="fas fa-envelope" target="_blank"></i></a>
+                        <a href="https://maps.app.goo.gl/sDATt54XxaFBEg4i6" aria-label="Location" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
                     </div>
                 </div>
             </div>
@@ -195,7 +199,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 ESSA {{ translations['site_name'] }} | <a href="#" class="text-light">{{ translations['footer_privacy'] }}</a></p>
+                <p>&copy; 2025 ESSA {{ translations['site_name'] }} | <a href="{{ url_for('privacypolicy') }}" class="text-light">{{ translations['footer_privacy'] }}</a></p>
             </div>
         </div>
     </footer>

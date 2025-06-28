@@ -45,6 +45,13 @@ def pricing():
     return render_template('pricing.html', translations=translations, active_page='pricing')
 
 
+@app.route('/privacypolicy')
+def privacypolicy():
+    lang = session.get('lang', 'en')
+    translations = get_translations(lang)
+    return render_template('privacypolicy.html', translations=translations, active_page='privacypolicy')
+
+
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
     lang = session.get('lang', 'en')

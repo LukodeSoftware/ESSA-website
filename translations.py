@@ -4,6 +4,7 @@ def get_translations(lang):
             # General
             'site_name': "Emi's Swim School Academy",
             'site_subtitle': "Swimming Lessons in Warsaw",
+            'site_name_subtitle': "Swimming Lessons Warsaw",
 
             # Navigation
             'nav_home': "Home",
@@ -112,6 +113,7 @@ def get_translations(lang):
             # General
             'site_name': "Emi's Swim School Academy",
             'site_subtitle': "Lekcje pływania w Warszawie",
+            'site_name_subtitle': "Nauka Pływania Warszawa",
 
             # Navigation
             'nav_home': "Strona główna",
