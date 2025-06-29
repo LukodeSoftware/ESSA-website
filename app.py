@@ -19,42 +19,42 @@ app.secret_key = os.environ.get("SESSION_SECRET", "dev-secret-key")
 
 @app.route('/')
 def index():
-    lang = session.get('lang', 'en')
+    lang = session.get('lang', 'pl')
     translations = get_translations(lang)
     return render_template('index.html', translations=translations, active_page='home')
 
 
 @app.route('/about')
 def about():
-    lang = session.get('lang', 'en')
+    lang = session.get('lang', 'pl')
     translations = get_translations(lang)
     return render_template('about.html', translations=translations, active_page='about')
 
 
 @app.route('/gallery')
 def gallery():
-    lang = session.get('lang', 'en')
+    lang = session.get('lang', 'pl')
     translations = get_translations(lang)
     return render_template('gallery.html', translations=translations, active_page='gallery')
 
 
 @app.route('/pricing')
 def pricing():
-    lang = session.get('lang', 'en')
+    lang = session.get('lang', 'pl')
     translations = get_translations(lang)
     return render_template('pricing.html', translations=translations, active_page='pricing')
 
 
 @app.route('/privacypolicy')
 def privacypolicy():
-    lang = session.get('lang', 'en')
+    lang = session.get('lang', 'pl')
     translations = get_translations(lang)
     return render_template('privacypolicy.html', translations=translations, active_page='privacypolicy')
 
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
-    lang = session.get('lang', 'en')
+    lang = session.get('lang', 'pl')
     translations = get_translations(lang)
     form = ContactForm()
 
@@ -128,14 +128,14 @@ def send_email(name, email, phone, message):
 
 @app.errorhandler(404)
 def page_not_found(e):
-    lang = session.get('lang', 'en')
+    lang = session.get('lang', 'pl')
     translations = get_translations(lang)
     return render_template('404.html', translations=translations), 404
 
 
 @app.errorhandler(500)
 def server_error(e):
-    lang = session.get('lang', 'en')
+    lang = session.get('lang', 'pl')
     translations = get_translations(lang)
     return render_template('500.html', translations=translations), 500
 
