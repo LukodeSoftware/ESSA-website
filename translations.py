@@ -54,10 +54,10 @@ def get_translations(lang):
             'schedule_sunday': "Sunday: 12:00 PM – 8:00 PM",
             'locations_heading': "Locations:",
             'location_1': "Inflancka Swimming Center",
-            'location_1_address': "ul. Inflancka 8, 00-189 Warsaw",
+            'location_1_address': "ul. Inflancka 8, Warsaw",
             'location_1_more': "More about this location",
             'location_2': "Medical University of Warsaw Pool (WUM)",
-            'location_2_address': "ul. Księcia Trojdena 2C",
+            'location_2_address': "ul. Księcia Trojdena 2C, Warsaw",
             'location_2_more': "More about this location",
 
             # Booking Section
@@ -85,6 +85,7 @@ def get_translations(lang):
             'pricing_packages': "Training Packages",
             'pricing_1person': "For 1 person",
             'pricing_2people': "For 2 people",
+            'pricing_info': "All packages must be used within 2 months from the first lesson. Cancellations must be madeat least 24 hours in advance, otherwise the lesson is counted as completed.",
 
             # FAQ
             'faq-title': "Frequently Asked Questions",
@@ -172,10 +173,10 @@ def get_translations(lang):
             'schedule_sunday': "Niedziela: 12:00 – 20:00",
             'locations_heading': "Lokalizacje:",
             'location_1': "Pływalnia Inflancka",
-            'location_1_address': "ul. Inflancka 8, 00-189 Warszawa",
+            'location_1_address': "ul. Inflancka 8, Warszawa",
             'location_1_more': "Więcej o tej lokalizacji",
-            'location_2': "Basen Warszawskiego Uniwersytetu Medycznego (WUM)",
-            'location_2_address': "ul. Księcia Trojdena 2C",
+            'location_2': "Basen WUM",
+            'location_2_address': "ul. Księcia Trojdena 2C, Warszawa",
             'location_2_more': "Więcej o tej lokalizacji",
 
             # Booking Section
@@ -203,6 +204,7 @@ def get_translations(lang):
             'pricing_packages': "Pakiety treningowe",
             'pricing_1person': "Dla 1 osoby",
             'pricing_2people': "Dla 2 osób",
+            'pricing_info': "Wszystkie pakiety muszą zostać wykorzystane w ciągu 2 miesięcy od pierwszej lekcji. Anulacje muszą zostać dokonane co najmniej 24 godziny wcześniej, w przeciwnym razie lekcja zostanie uznana za zakończoną.",
 
             # FAQ
             'faq-title': "Najczęściej Zadawane Pytania",
