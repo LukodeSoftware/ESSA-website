@@ -75,6 +75,7 @@ def get_translations(lang):
             'about_description': "As a multiple-time Polish swimming champion, I've dedicated my life to mastering the art of swimming. Now, I'm passionate about sharing my knowledge and experience with both children and adults who want to learn or improve their swimming techniques.",
             'about_achievements': "Achievements",
             'about_experience': "Teaching Experience",
+            'testimonials_title': "Testimonials",
 
             # Pricing
             'pricing_title': "Pricing",
@@ -194,6 +195,8 @@ def get_translations(lang):
             'about_description': "Jako wielokrotna mistrzyni Polski w pływaniu, poświęciłam swoje życie doskonaleniu sztuki pływania. Teraz z pasją dzielę się swoją wiedzą i doświadczeniem zarówno z dziećmi, jak i dorosłymi, którzy chcą nauczyć się lub poprawić swoje techniki pływania.",
             'about_achievements': "Osiągnięcia",
             'about_experience': "Doświadczenie w nauczaniu",
+            'testimonials_title': "Opinie",
+
 
             # Pricing
             'pricing_title': "Cennik",
