@@ -155,26 +155,26 @@
                         <table class="table table-hover mb-0">
                             <thead>
                                 <tr>
-                                    <th>Day</th>
-                                    <th>Hours</th>
-                                    <th>Availability</th>
+                                    <th>{{ translations['schedule_day_title'] }}</th>
+                                    <th>{{ translations['schedule_hours_title'] }}</th>
+                                    <th>{{ translations['schedule_availability_title'] }}</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Monday - Friday</td>
-                                    <td>6:00 PM – 8:00 PM</td>
-                                    <td><span class="badge bg-success">Available</span></td>
+                                    <td>{{ translations['schedule_monday_friday'] }}</td>
+                                    <td>{{ translations['schedule_monday_friday_hours'] }}</td>
+                                    <td><span class="badge bg-success">{{ translations['schedule_available'] }}</span></td>
                                 </tr>
                                 <tr>
-                                    <td>Saturday</td>
-                                    <td>11:00 AM – 8:00 PM</td>
-                                    <td><span class="badge bg-success">Available</span></td>
+                                    <td>{{ translations['schedule_saturday'] }}</td>
+                                    <td>{{ translations['schedule_saturday_hours'] }}</td>
+                                    <td><span class="badge bg-success">{{ translations['schedule_available'] }}</span></td>
                                 </tr>
                                 <tr>
-                                    <td>Sunday</td>
-                                    <td>12:00 PM – 8:00 PM</td>
-                                    <td><span class="badge bg-success">Available</span></td>
+                                    <td>{{ translations['schedule_sunday'] }}</td>
+                                    <td>{{ translations['schedule_sunday_hours'] }}</td>
+                                    <td><span class="badge bg-success">{{ translations['schedule_available'] }}</span></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -183,7 +183,7 @@
                 
                 <p class="text-center mt-4">
                     <i class="fas fa-info-circle me-2"></i>
-                    To book a specific time slot, please contact us by phone or email, or fill out the contact form.
+                    {{ translations['schedule_info'] }}
                 </p>
             </div>
         </div>

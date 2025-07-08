@@ -633,8 +633,8 @@ a:hover {
 }
 
 .contact-form-btn:hover {
-  background-color: var(--primary-dark);
-  border-color: var(--primary-dark);
+  background-color: var(--highlight-hover);
+  color: white;
 }
 
 .map-container {
