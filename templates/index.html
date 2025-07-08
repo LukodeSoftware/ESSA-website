@@ -152,17 +152,36 @@
         <div class="row mb-5">
             <div class="col-md-6">
                 <h4>{{ translations['schedule_heading'] }}</h4>
-                <ul class="schedule-list">
-                    <li>
-                        <span><i class="far fa-calendar-alt me-2"></i> {{ translations['schedule_weekdays'] }}</span>
-                    </li>
-                    <li>
-                        <span><i class="far fa-calendar-alt me-2"></i> {{ translations['schedule_saturday'] }}</span>
-                    </li>
-                    <li>
-                        <span><i class="far fa-calendar-alt me-2"></i> {{ translations['schedule_sunday'] }}</span>
-                    </li>
-                </ul>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <table class="table table-hover mb-0">
+                            <thead>
+                                <tr>
+                                    <th>{{ translations['schedule_day_title'] }}</th>
+                                    <th>{{ translations['schedule_hours_title'] }}</th>
+                                    <th>{{ translations['schedule_availability_title'] }}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>{{ translations['schedule_weekdays'] }}</td>
+                                    <td>{{ translations['schedule_weekdays_hours'] }}</td>
+                                    <td><span class="badge bg-success">{{ translations['schedule_available'] }}</span></td>
+                                </tr>
+                                <tr>
+                                    <td>{{ translations['schedule_saturday'] }}</td>
+                                    <td>{{ translations['schedule_saturday_hours'] }}</td>
+                                    <td><span class="badge bg-success">{{ translations['schedule_available'] }}</span></td>
+                                </tr>
+                                <tr>
+                                    <td>{{ translations['schedule_sunday'] }}</td>
+                                    <td>{{ translations['schedule_sunday_hours'] }}</td>
+                                    <td><span class="badge bg-success">{{ translations['schedule_available'] }}</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
             
             <div class="col-md-6">
