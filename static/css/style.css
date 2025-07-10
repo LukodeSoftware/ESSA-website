@@ -95,7 +95,13 @@ a:hover {
   transform: translateX(-50%);
 }
 
-.wave-divider {
+.wave-divider-light {
+  line-height: 0;
+  overflow: hidden;
+  background-color: var(--primary-light);
+}
+
+.wave-divider-dark {
   line-height: 0;
   overflow: hidden;
   background-color: var(--light-blue);
@@ -318,6 +324,10 @@ a:hover {
 }
 
 /* About School */
+#about-school {
+  background-color: var(--light-blue);
+}
+
 .about-school-img {
   border-radius: 10px;
   overflow: hidden;
@@ -346,7 +356,7 @@ a:hover {
 
 /* Locations & Schedule */
 .locations-section {
-  background-color: var(--light-blue);
+  background-color: var(--primary-light);
   padding-bottom: 20px;
 }
 
@@ -405,6 +415,10 @@ a:hover {
 .booking-section {
   background-size: cover;
   color: var(--primary-dark);
+  background-color: var(--light-blue);
+}
+
+#booking-section-about, #booking-section-pricing {
   background-color: var(--primary-light);
 }
 
@@ -478,42 +492,6 @@ a:hover {
 .gallery-item:hover img {
   transform: scale(1.02);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-/* Lightbox */
-.lightbox {
-  display: none;
-  position: fixed;
-  z-index: 1050;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-.lightbox-content {
-  position: relative;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  margin: 40px auto;
-  text-align: center;
-}
-
-.lightbox-img {
-  width: 100%;
-  height: auto;
-}
-
-.lightbox-close {
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  color: var(--white);
-  cursor: pointer;
 }
 
 /* About Me */
