@@ -527,6 +527,46 @@ a:hover {
   margin-bottom: 30px;
 }
 
+/* Inflancka – akcent niebieski */
+.pricing-location-inflancka {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.pricing-location-inflancka h3 {
+  color: var(--primary-dark);
+  font-weight: bold;
+  border-bottom: 2px solid var(--primary-dark);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Trojdena – akcent różowy */
+.pricing-location-trojdena {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.pricing-location-trojdena h3 {
+  color: var(--highlight-color);
+  font-weight: bold;
+  border-bottom: 2px solid var(--highlight-color);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.pricing-location-inflancka table th {
+  background-color: var(--primary-dark);
+}
+
+.pricing-location-trojdena table th {
+  background-color: var(--highlight-color);
+}
+
+.pricing-location-trojdena h4 {
+  color: var(--highlight-color);
+}
+
 .pricing-table th, .pricing-table td {
   padding: 15px;
   text-align: left;

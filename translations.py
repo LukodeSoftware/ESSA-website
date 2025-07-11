@@ -78,11 +78,13 @@ def get_translations(lang):
 
             # Pricing
             'pricing_title': "Pricing",
-            'pricing_individual': "Individual Lessons",
+            'basic_prices': "Basic prices",
+            'pricing_packages_5': "Packages of 5 classes paid in advance",
+            'pricing_packages_10': "Packages of 10 classes paid in advance",
+
             'pricing_30min': "30 minutes",
             'pricing_45min': "45 minutes",
             'pricing_vouchers': "Vouchers",
-            'pricing_packages': "Training Packages",
             'pricing_1person': "For 1 person",
             'pricing_2people': "For 2 people",
             'pricing_info': "All packages must be used within 2 months from the first lesson. Cancellations must be madeat least 24 hours in advance, otherwise the lesson is counted as completed.",
@@ -209,11 +211,13 @@ def get_translations(lang):
 
             # Pricing
             'pricing_title': "Cennik",
-            'pricing_individual': "Lekcje indywidualne",
+            'basic_prices': "Ceny podstawowe",
+            'pricing_packages_5': "Pakiety 5 zajęć do opłaty z góry",
+            'pricing_packages_10': "Pakiety 10 zajęć do opłaty z góry",
+
             'pricing_30min': "30 minut",
             'pricing_45min': "45 minut",
             'pricing_vouchers': "Vouchery",
-            'pricing_packages': "Pakiety treningowe",
             'pricing_1person': "Dla 1 osoby",
             'pricing_2people': "Dla 2 osób",
             'pricing_info': "Wszystkie pakiety muszą zostać wykorzystane w ciągu 2 miesięcy od pierwszej lekcji. Anulacje muszą zostać dokonane co najmniej 24 godziny wcześniej, w przeciwnym razie lekcja zostanie uznana za zakończoną.",
