@@ -141,6 +141,40 @@ def get_translations(lang):
             '404_message': "The page you are looking for does not exist.",
             '500_title': "Server Error",
             '500_message': "Something went wrong on our server. Please try again later.",
+
+            # Privacy Policy
+            'privacy_policy_title': "Privacy Policy",
+            'privacy_intro': "At ESSA, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or use our services.",
+
+            # Information We Collect
+            'information_we_collect_title': "Information We Collect",
+            'personal_information_title': "Personal Information:",
+            'personal_information_text': "When you create an account or make a purchase, we collect personal information such as your name, email address, and shipping address.",
+            'usage_data_title': "Usage Data:",
+            'usage_data_text': "We may collect information about how you interact with our website, including pages visited, time spent, and other analytics data.",
+            'cookies_title': "Cookies:",
+            'cookies_text': "We use cookies to enhance your browsing experience and improve our services.",
+
+            # How We Use Your Information
+            'how_we_use_information_title': "How We Use Your Information",
+            'order_processing_title': "Order Processing:",
+            'order_processing_text': "We use your personal information to process orders, deliver products, and provide customer support.",
+            'marketing_communications_title': "Marketing Communications:",
+            'marketing_communications_text': "With your consent, we may send you promotional emails or newsletters.",
+            'analytics_title': "Analytics:",
+            'analytics_text': "We analyze usage data to improve our website and services.",
+
+            # Data Security
+            'data_security_title': "Data Security",
+            'data_security_text': "We take appropriate measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction.",
+
+            # Your Rights
+            'your_rights_title': "Your Rights",
+            'your_rights_text': "You have the right to access, correct, or delete your personal information. Please contact us if you have any requests or questions.",
+
+            # Changes to this Policy
+            'policy_changes_title': "Changes to this Policy",
+            'policy_changes_text': "We may update this Privacy Policy from time to time. Please review it periodically for any changes.",
         },
         'pl': {
             # General
@@ -237,7 +271,7 @@ def get_translations(lang):
             # FAQ
             'faq-title': "Najczęściej Zadawane Pytania",
             'faq-question-1': "Co powinienem przynieść na lekcję pływania?",
-            'faq-answer-1': "Proszę zabrać ze sobą strój kąpielowy, ręcznik, czepek i gogle. Dobrze jest też mieć klapki na basenie. Cały pozostały sprzęt, taki jak deski do pływania lub bojki, będzie zapewniony podczas lekcji.",
+            'faq-answer-1': "Proszę zabrać ze sobą strój kąpielowy, ręcznik, czepek i okularki. Dobrze jest też mieć klapki na basenie. Cały pozostały sprzęt, taki jak deski do pływania lub bojki, będzie zapewniony podczas lekcji.",
             'faq-question-2': "Jak odwołać lub przełożyć lekcję?",
             'faq-answer-2': "Możesz anulować lub przełożyć lekcję, kontaktując się z nami telefonicznie lub e-mailem co najmniej 24 godziny przed zaplanowaną lekcją. Anulacje dokonane z wyprzedzeniem krótszym niż 24 godziny będą rozliczane jako ukończona lekcja.",
             'faq-question-3': "Ile czasu zajmuje nauczenie się pływania?",
@@ -280,6 +314,35 @@ def get_translations(lang):
             '404_message': "Strona, której szukasz, nie istnieje.",
             '500_title': "Błąd serwera",
             '500_message': "Coś poszło nie tak na naszym serwerze. Spróbuj ponownie później.",
+
+            # Privacy policy
+            'privacy_policy_title': "Polityka prywatności",
+            'privacy_intro': "W ESSA dokładamy wszelkich starań, aby chronić Twoją prywatność. Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób gromadzimy, wykorzystujemy i chronimy Twoje dane osobowe, gdy odwiedzasz naszą stronę lub korzystasz z naszych usług.",
+
+            'information_we_collect_title': "Informacje, które zbieramy",
+            'personal_information_title': "Dane osobowe:",
+            'personal_information_text': "Gdy tworzysz konto lub dokonujesz zakupu, zbieramy dane osobowe takie jak imię i nazwisko, adres e-mail oraz adres dostawy.",
+            'usage_data_title': "Dane o użytkowaniu:",
+            'usage_data_text': "Możemy zbierać informacje o tym, jak korzystasz z naszej strony, w tym odwiedzane strony, czas spędzony i inne dane analityczne.",
+            'cookies_title': "Pliki cookies:",
+            'cookies_text': "Używamy plików cookies, aby poprawić Twoje wrażenia z przeglądania oraz ulepszać nasze usługi.",
+
+            'how_we_use_information_title': "Jak wykorzystujemy Twoje dane",
+            'order_processing_title': "Przetwarzanie zamówień:",
+            'order_processing_text': "Używamy Twoich danych osobowych do realizacji zamówień, dostarczania produktów i obsługi klienta.",
+            'marketing_communications_title': "Komunikacja marketingowa:",
+            'marketing_communications_text': "Za Twoją zgodą możemy wysyłać Ci e-maile promocyjne lub biuletyny.",
+            'analytics_title': "Analityka:",
+            'analytics_text': "Analizujemy dane o użytkowaniu, aby ulepszać naszą stronę internetową i usługi.",
+
+            'data_security_title': "Bezpieczeństwo danych",
+            'data_security_text': "Podejmujemy odpowiednie środki, aby chronić Twoje dane osobowe przed nieautoryzowanym dostępem, ujawnieniem, zmianą lub zniszczeniem.",
+
+            'your_rights_title': "Twoje prawa",
+            'your_rights_text': "Masz prawo do dostępu, poprawiania lub usuwania swoich danych osobowych. Skontaktuj się z nami w razie pytań lub wniosków.",
+
+            'policy_changes_title': "Zmiany w tej polityce",
+            'policy_changes_text': "Możemy od czasu do czasu aktualizować niniejszą Politykę Prywatności. Prosimy o okresowe jej przeglądanie w celu zapoznania się z ewentualnymi zmianami.",
         }
     }
 

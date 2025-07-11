@@ -5,32 +5,32 @@
 {% block content %}
 
 <div class="privacy-policy-container">
-    <h1 id="privacy-policy-header">Privacy Policy</h1>
+    <h1 id="privacy-policy-header">{{ translations['privacy_policy_title'] }}</h1>
 
-    <p>At ESSA, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or use our services.</p>
+    <p>{{ translations['privacy_intro'] }}</p>
 
-    <h2>Information We Collect</h2>
+    <h2>{{ translations['information_we_collect_title'] }}</h2>
     <ul class="privacy-policy-list">
-        <li><b>Personal Information:</b> When you create an account or make a purchase, we collect personal information such as your name, email address, and shipping address.</li>
-        <li><b>Usage Data:</b> We may collect information about how you interact with our website, including pages visited, time spent, and other analytics data.</li>
-        <li><b>Cookies:</b> We use cookies to enhance your browsing experience and improve our services.</li>
+        <li><b>{{ translations['personal_information_title'] }}</b> {{ translations['personal_information_text'] }}</li>
+        <li><b>{{ translations['usage_data_title'] }}</b> {{ translations['usage_data_text'] }}</li>
+        <li><b>{{ translations['cookies_title'] }}</b> {{ translations['cookies_text'] }}</li>
     </ul>
 
-    <h2>How We Use Your Information</h2>
+    <h2>{{ translations['how_we_use_information_title'] }}</h2>
     <ul class="privacy-policy-list">
-        <li><b>Order Processing:</b> We use your personal information to process orders, deliver products, and provide customer support.</li>
-        <li><b>Marketing Communications:</b> With your consent, we may send you promotional emails or newsletters.</li>
-        <li><b>Analytics:</b> We analyze usage data to improve our website and services.</li>
+        <li><b>{{ translations['order_processing_title'] }}</b> {{ translations['order_processing_text'] }}</li>
+        <li><b>{{ translations['marketing_communications_title'] }}</b> {{ translations['marketing_communications_text'] }}</li>
+        <li><b>{{ translations['analytics_title'] }}</b> {{ translations['analytics_text'] }}</li>
     </ul>
 
-    <h2>Data Security</h2>
-    <p>We take appropriate measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction.</p>
+    <h2>{{ translations['data_security_title'] }}</h2>
+    <p>{{ translations['data_security_text'] }}</p>
 
-    <h2>Your Rights</h2>
-    <p>You have the right to access, correct, or delete your personal information. Please contact us if you have any requests or questions.</p>
+    <h2>{{ translations['your_rights_title'] }}</h2>
+    <p>{{ translations['your_rights_text'] }}</p>
 
-    <h2>Changes to this Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Please review it periodically for any changes.</p>
+    <h2>{{ translations['policy_changes_title'] }}</h2>
+    <p>{{ translations['policy_changes_text'] }}</p>
 </div>
 
 {% endblock %}
