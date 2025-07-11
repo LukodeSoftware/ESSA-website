@@ -22,7 +22,8 @@
 
 /* Global Styles */
 body {
-  font-family: var(--font-family-base);background-color: var(--primary-light); /* Lighter Background */
+  font-family: var(--font-family-base);
+  background-color: var(--primary-light); /* Lighter Background */
   color: var(--dark-gray);
   overflow-x: hidden;
 }
@@ -606,6 +607,10 @@ a:hover {
   margin-right: 15px;
   min-width: 30px;
   text-align: center;
+}
+
+.contact-link {
+  color: var(--dark-gray);
 }
 
 .contact-info-text h5 {
