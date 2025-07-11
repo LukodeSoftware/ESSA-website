@@ -84,9 +84,17 @@ def get_translations(lang):
 
             'pricing_30min': "30 minutes",
             'pricing_45min': "45 minutes",
+            'pricing_60min': "60 minutes",
             'pricing_vouchers': "Vouchers",
             'pricing_1person': "For 1 person",
             'pricing_2people': "For 2 people",
+            'pricing_time': "Time",
+            'pricing_1_person': "1 person",
+            'pricing_2_persons': "2 people",
+            'pricing_5_lessons_1_person': "5 lessons (1 person)",
+            'pricing_5_lessons_2_persons': "5 lessons (2 people)",
+            'pricing_10_lessons_1_person': "10 lessons (1 person)",
+            'pricing_10_lessons_2_persons': "10 lessons (2 people)",
             'pricing_info': "All packages must be used within 2 months from the first lesson. Cancellations must be madeat least 24 hours in advance, otherwise the lesson is counted as completed.",
 
             # FAQ
@@ -214,12 +222,16 @@ def get_translations(lang):
             'basic_prices': "Ceny podstawowe",
             'pricing_packages_5': "Pakiety 5 zajęć do opłaty z góry",
             'pricing_packages_10': "Pakiety 10 zajęć do opłaty z góry",
-
             'pricing_30min': "30 minut",
             'pricing_45min': "45 minut",
-            'pricing_vouchers': "Vouchery",
-            'pricing_1person': "Dla 1 osoby",
-            'pricing_2people': "Dla 2 osób",
+            'pricing_60min': "60 minut",
+            'pricing_time': "Czas",
+            'pricing_1_person': "1 osoba",
+            'pricing_2_persons': "2 osoby",
+            'pricing_5_lessons_1_person': "5 zajęć (1 os.)",
+            'pricing_5_lessons_2_persons': "5 zajęć (2 os.)",
+            'pricing_10_lessons_1_person': "10 zajęć (1 os.)",
+            'pricing_10_lessons_2_persons': "10 zajęć (2 os.)",
             'pricing_info': "Wszystkie pakiety muszą zostać wykorzystane w ciągu 2 miesięcy od pierwszej lekcji. Anulacje muszą zostać dokonane co najmniej 24 godziny wcześniej, w przeciwnym razie lekcja zostanie uznana za zakończoną.",
 
             # FAQ
