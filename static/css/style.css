@@ -96,6 +96,15 @@ a:hover {
   transform: translateX(-50%);
 }
 
+.wave-divider-transparent {
+  line-height: 0;
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+  margin-top: -60px;
+}
+
 .wave-divider-light {
   line-height: 0;
   overflow: hidden;
@@ -209,7 +218,7 @@ a:hover {
   color: var(--white);
   background-image: url('/static/images/Emilka.jpg');
   background-size: cover;
-  background-position: center bottom -200px;
+  background-position: center bottom -140px;
 }
 
 
@@ -250,6 +259,10 @@ a:hover {
 }
 
 /* What We Offer */
+#offer {
+  padding-top: 40px;
+}
+
 .offer-item {
   text-align: center;
   margin-bottom: 30px;
