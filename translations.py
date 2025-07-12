@@ -251,7 +251,15 @@ def get_translations(lang):
             # About Me
             'about_title': "O mnie",
             'about_intro': "Poznaj Emilię - Wielokrotną Mistrzynię Polski w Pływaniu",
-            'about_description': "Jako wielokrotna mistrzyni Polski w pływaniu, poświęciłam swoje życie doskonaleniu sztuki pływania. Teraz z pasją dzielę się swoją wiedzą i doświadczeniem zarówno z dziećmi, jak i dorosłymi, którzy chcą nauczyć się lub poprawić swoje techniki pływania.",
+            'about_description': """Cześć, nazywam się Emilka i jestem założycielką szkółki ESSA Warsaw.🐬 Poniżej znajdziesz więcej informacji o mnie, mojej przygodzie z pływaniem i wiele innych ciekawych rzeczy. ☺️
+
+            Od ponad 20 lat jestem związana z pływaniem. Od 4 klasy podstawówki należałam do klubu, jak i również uczęszczałam do szkoły sportowej. Wtedy też poznałam swojego trenera, z którym trenowałam przez kolejne 10 lat. Pamiętam jak na pierwszym treningu powiedział, że mam pływać pierwsza na torze. Od tamtej pory starałam się prowadzić, co nie zawsze było łatwe.
+            Pierwszy medal mistrzostw Polski zdobyłam w kategorii 16 latków, i potem co pół roku kilka krążków wpadało do kolekcji. 🥇🥈🥉
+            Oprócz tego od ponad 3 lat zajmuję się nauką pływania dzieci i dorosłych. Uwielbiam przekazywać swoją wiedzę i zdobyte doświadczenie moim podopiecznym, dlatego też zdecydowałam o założeniu swojej szkółki. 🥰
+            Nazwa „ESSA” jest nie tylko skrótem od „Emi’s Swim School Academy”, ale i również słowem, które oznacza radość, luz i brak przymusu… czyli to co u mnie na zajęciach. 😉
+            Jeśli chcesz się przekonać to zapraszam do kontaktu i zapisu na lekcje!
+
+            Pływaj ze mną i ESSA!🤪""",
             'about_achievements': "Osiągnięcia",
             'about_experience': "Doświadczenie w nauczaniu",
             'testimonials_title': "Opinie",
