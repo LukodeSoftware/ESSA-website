@@ -97,6 +97,12 @@ def get_translations(lang):
             'pricing_10_lessons_2_persons': "10 lessons (2 people)",
             'pricing_info': "All packages must be used within 2 months from the first lesson. Cancellations must be madeat least 24 hours in advance, otherwise the lesson is counted as completed.",
 
+            # Payment details
+            'payment_details_title': "Payment details",
+            'payment_details_heading': "Payment details for swimming lessons:",
+            'bank_account': "Bank account:",
+
+
             # FAQ
             'faq-title': "Frequently Asked Questions",
             'faq-question-1': "What should I bring to my swimming lesson?",
@@ -267,6 +273,11 @@ def get_translations(lang):
             'pricing_10_lessons_1_person': "10 zajęć (1 os.)",
             'pricing_10_lessons_2_persons': "10 zajęć (2 os.)",
             'pricing_info': "Wszystkie pakiety muszą zostać wykorzystane w ciągu 2 miesięcy od pierwszej lekcji. Anulacje muszą zostać dokonane co najmniej 24 godziny wcześniej, w przeciwnym razie lekcja zostanie uznana za zakończoną.",
+
+            # Payment details
+            'payment_details_title': "Dane do płatności",
+            'payment_details_heading': "Dane do wpłat za naukę pływania:",
+            'bank_account': "Rachunek:",
 
             # FAQ
             'faq-title': "Najczęściej Zadawane Pytania",
