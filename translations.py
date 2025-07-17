@@ -25,6 +25,8 @@ def get_translations(lang):
             'offer_4': "Learning swimming elements (e.g. diving, turns)",
             'offer_5': "Preparation for swimming and triathlon competitions",
             'offer_6': "Preparation for fitness and swimming exams",
+            'offer_7': "Fun water activities for children",
+            'offer_8': "Swimming lessons in English",
             'offer_cta': "Start training with a multiple-time Polish champion!",
 
             # Voucher Section
@@ -207,7 +209,9 @@ def get_translations(lang):
             'offer_4': "Nauka elementów pływania (np. nurkowanie, nawroty)",
             'offer_5': "Przygotowanie do zawodów pływackich i triathlonowych",
             'offer_6': "Przygotowanie do egzaminów sprawnościowych i pływackich",
-            'offer_cta': "Rozpocznij treningi z wielokrotną mistrzynią Polski!",
+            'offer_7': "Zabawy w wodzie dla najmłodszych",
+            'offer_8': "Zajęcia pływania po angielsku",
+            'offer_cta': "Zacznij już dziś!",
 
             # Voucher Section
             'voucher_title': "Voucher na lekcje pływania z Mistrzynią",

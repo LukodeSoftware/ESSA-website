@@ -1,8 +1,3 @@
-/**
- * ESSA - Emi's Swim School Academy
- * Main JavaScript File
- */
-
 document.addEventListener('DOMContentLoaded', function() {
     'use strict';
 

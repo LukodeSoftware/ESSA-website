@@ -270,6 +270,7 @@ a:hover {
   border-radius: 5px;
   transition: all 0.3s ease;
   background-color: var(--light-blue);
+  min-height: 245px;
 }
 
 .offer-item:hover {
