@@ -97,6 +97,7 @@ def get_translations(lang):
             'pricing_5_lessons_2_persons': "5 lessons (2 people)",
             'pricing_10_lessons_1_person': "10 lessons (1 person)",
             'pricing_10_lessons_2_persons': "10 lessons (2 people)",
+            'person': "person",
             'pricing_info': "All packages must be used within 2 months from the first lesson. Cancellations must be madeat least 24 hours in advance, otherwise the lesson is counted as completed.",
 
             # Payment details
@@ -284,6 +285,8 @@ def get_translations(lang):
             'pricing_5_lessons_2_persons': "5 zajęć (2 os.)",
             'pricing_10_lessons_1_person': "10 zajęć (1 os.)",
             'pricing_10_lessons_2_persons': "10 zajęć (2 os.)",
+            'person': "os.",
+
             'pricing_info': "Wszystkie pakiety muszą zostać wykorzystane w ciągu 2 miesięcy od pierwszej lekcji. Anulacje muszą zostać dokonane co najmniej 24 godziny wcześniej, w przeciwnym razie lekcja zostanie uznana za zakończoną.",
 
             # Payment details
