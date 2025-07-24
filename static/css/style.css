@@ -96,9 +96,12 @@ a:hover {
   transform: translateX(-50%);
 }
 
-.wave-divider-transparent {
+.wave-divider {
   line-height: 0;
   overflow: hidden;
+}
+
+.wave-divider-transparent {
   background-color: transparent;
   position: relative;
   z-index: 1;
@@ -106,14 +109,10 @@ a:hover {
 }
 
 .wave-divider-light {
-  line-height: 0;
-  overflow: hidden;
   background-color: var(--primary-light);
 }
 
 .wave-divider-dark {
-  line-height: 0;
-  overflow: hidden;
   background-color: var(--light-blue);
 }
 
@@ -542,6 +541,11 @@ a:hover {
 
 .about-img-shift img {
   object-position: center calc(50% - 100px); /* środek + 50px w dół */
+}
+
+.lead {
+  text-align: justify;
+  font-size: 1.1rem;
 }
 
 .achievement-item {

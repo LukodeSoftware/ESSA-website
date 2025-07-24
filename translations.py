@@ -259,7 +259,7 @@ def get_translations(lang):
             'about_intro': "Poznaj Emilię - Wielokrotną Mistrzynię Polski w Pływaniu",
             'about_description': """Nazywam się Emilka i jestem założycielką szkółki pływackiej ESSA Warsaw.
 
-                Pomimo młodego wieku to z pływaniem jestem związana od ponad 20 lat – najpierw jako zawodniczka, później jako instruktorka. Przez wiele lat trenowałam w klubach sportowych, startując na najwyższym poziomie krajowym.
+                Pomimo młodego wieku, z pływaniem jestem związana od ponad 20 lat – najpierw jako zawodniczka, później jako instruktorka. Przez wiele lat trenowałam w klubach sportowych, startując na najwyższym poziomie krajowym.
 
                 Jestem wielokrotną medalistką Mistrzostw Polski. Zdobywałam złote, srebrne i brązowe medale zarówno na krótkim, jak i długim basenie, specjalizując się w stylu grzbietowym i zmiennym. Moje koronne dystanse to:
                 50, 100 i 200 metrów stylem grzbietowym oraz 100 i 200 metrów stylem zmiennym.
