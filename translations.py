@@ -104,6 +104,7 @@ def get_translations(lang):
             'payment_details_title': "Payment details",
             'payment_details_heading': "Payment details for swimming lessons:",
             'bank_account': "Bank account:",
+            'payment_info': "Cash payment before the lesson is also available.",
 
 
             # FAQ
@@ -114,8 +115,8 @@ def get_translations(lang):
             'faq-answer-2': "You can cancel or reschedule your lesson by contacting us via phone or email at least 24 hours before your scheduled lesson. Cancellations with less than 24 hours notice will be charged as a completed lesson.",
             'faq-question-3': "How long does it take to learn to swim?",
             'faq-answer-3': "Learning to swim is a very individual process. Some students feel comfortable in water after just a few lessons, while others may take more time. Generally, with regular lessons (once per week), most students can learn basic swimming skills within 2-3 months.",
-            'faq-question-4': "What length of lesson is recommended to start with? 30 or 45 minutes?",
-            'faq-answer-4': "At first, 30-minute lessons are best – they allow you to gradually get used to the water and the new environment. As your comfort and fitness improve, you can easily extend the classes to 45 minutes.",
+            'faq-question-4': "What length of lesson is recommended to start with? 30, 45 or 60 minutes?",
+            'faq-answer-4': "For the first lessons, we recommend 30-minute sessions for children and 45-minute sessions for adults. As the course progresses, the lesson duration is adjusted individually based on the student’s needs, abilities, and preferences.",
 
             # Contact
             'contact_title': "Contact Us",
@@ -256,15 +257,24 @@ def get_translations(lang):
             # About Me
             'about_title': "O mnie",
             'about_intro': "Poznaj Emilię - Wielokrotną Mistrzynię Polski w Pływaniu",
-            'about_description': """Cześć, nazywam się Emilka i jestem założycielką szkółki ESSA Warsaw.🐬 Poniżej znajdziesz więcej informacji o mnie, mojej przygodzie z pływaniem i wiele innych ciekawych rzeczy. ☺️
+            'about_description': """Nazywam się Emilka i jestem założycielką szkółki pływackiej ESSA Warsaw.
 
-            Od ponad 20 lat jestem związana z pływaniem. Od 4 klasy podstawówki należałam do klubu, jak i również uczęszczałam do szkoły sportowej. Wtedy też poznałam swojego trenera, z którym trenowałam przez kolejne 10 lat. Pamiętam jak na pierwszym treningu powiedział, że mam pływać pierwsza na torze. Od tamtej pory starałam się prowadzić, co nie zawsze było łatwe.
-            Pierwszy medal mistrzostw Polski zdobyłam w kategorii 16 latków, i potem co pół roku kilka krążków wpadało do kolekcji. 🥇🥈🥉
-            Oprócz tego od ponad 3 lat zajmuję się nauką pływania dzieci i dorosłych. Uwielbiam przekazywać swoją wiedzę i zdobyte doświadczenie moim podopiecznym, dlatego też zdecydowałam o założeniu swojej szkółki. 🥰
-            Nazwa „ESSA” jest nie tylko skrótem od „Emi’s Swim School Academy”, ale i również słowem, które oznacza radość, luz i brak przymusu… czyli to co u mnie na zajęciach. 😉
-            Jeśli chcesz się przekonać to zapraszam do kontaktu i zapisu na lekcje!
+                Pomimo młodego wieku to z pływaniem jestem związana od ponad 20 lat – najpierw jako zawodniczka, później jako instruktorka. Przez wiele lat trenowałam w klubach sportowych, startując na najwyższym poziomie krajowym.
 
-            Pływaj ze mną i ESSA!🤪""",
+                Jestem wielokrotną medalistką Mistrzostw Polski. Zdobywałam złote, srebrne i brązowe medale zarówno na krótkim, jak i długim basenie, specjalizując się w stylu grzbietowym i zmiennym. Moje koronne dystanse to:
+                50, 100 i 200 metrów stylem grzbietowym oraz 100 i 200 metrów stylem zmiennym.
+                Brałam również udział w zawodach międzynarodowych.
+
+                Obecnie łączę pasję do sportu ze studiami prawniczymi. Jak tylko mogę to startuję w Akademickich Mistrzostwach Polski, gdzie również udaje mi się sięgać po medale.
+
+                Od kilku lat zajmuję się nauczaniem pływania dzieci, młodzieży i dorosłych. Pracuję zarówno z osobami, które dopiero zaczynają swoją przygodę z wodą, jak i z tymi, które chcą poprawić technikę czy przygotować się do zawodów lub testów sprawnościowych. W pracy stawiam na indywidualne podejście, komfort, bezpieczeństwo i pozytywną atmosferę.
+
+                Dlaczego ESSA?
+
+                ESSA to skrót od Emi’s Swim School Academy, ale także słowo oznaczające luz, radość i swobodę – dokładnie to, co chcę przekazywać moim kursantom na zajęciach.
+
+                Jeśli szukasz profesjonalnej nauki pływania w przyjaznej atmosferze – zapraszam!
+                Pływaj ze mną i ESSA!""",
             'about_achievements': "Osiągnięcia",
             'about_experience': "Doświadczenie w nauczaniu",
             'testimonials_title': "Opinie",
@@ -286,24 +296,25 @@ def get_translations(lang):
             'pricing_10_lessons_1_person': "10 zajęć (1 os.)",
             'pricing_10_lessons_2_persons': "10 zajęć (2 os.)",
             'person': "os.",
-
             'pricing_info': "Wszystkie pakiety muszą zostać wykorzystane w ciągu 2 miesięcy od pierwszej lekcji. Anulacje muszą zostać dokonane co najmniej 24 godziny wcześniej, w przeciwnym razie lekcja zostanie uznana za zakończoną.",
 
             # Payment details
             'payment_details_title': "Dane do płatności",
             'payment_details_heading': "Dane do wpłat za naukę pływania:",
             'bank_account': "Rachunek:",
+            'payment_info': "Możliwa jest również płatność gotówką przed zajęciami.",
+
 
             # FAQ
             'faq-title': "Najczęściej Zadawane Pytania",
             'faq-question-1': "Co powinienem przynieść na lekcję pływania?",
             'faq-answer-1': "Proszę zabrać ze sobą strój kąpielowy, ręcznik, czepek i okularki. Dobrze jest też mieć klapki na basenie. Cały pozostały sprzęt, taki jak deski do pływania lub bojki, będzie zapewniony podczas lekcji.",
             'faq-question-2': "Jak odwołać lub przełożyć lekcję?",
-            'faq-answer-2': "Możesz anulować lub przełożyć lekcję, kontaktując się z nami telefonicznie lub e-mailem co najmniej 24 godziny przed zaplanowaną lekcją. Anulacje dokonane z wyprzedzeniem krótszym niż 24 godziny będą rozliczane jako ukończona lekcja.",
+            'faq-answer-2': "Możesz anulować lub przełożyć lekcję, kontaktując się z nami telefonicznie lub e-mailem co najmniej 24 godziny przed zaplanowaną lekcją. Za lekcje odwołane w czasie krótszym niż 24h przed zajęciami nie przysługuje zwrot.",
             'faq-question-3': "Ile czasu zajmuje nauczenie się pływania?",
             'faq-answer-3': "Nauka pływania to bardzo indywidualny proces. Niektórzy uczniowie czują się komfortowo w wodzie już po kilku lekcjach, podczas gdy inni potrzebują więcej czasu. Zazwyczaj, przy regularnych lekcjach (raz w tygodniu), większość uczniów może nauczyć się podstawowych umiejętności pływania w ciągu 2-3 miesięcy.",
-            'faq-question-4': "Jaka długość lekcji jest polecana początek? 30 czy 45 minut?",
-            'faq-answer-4': "Na początek najlepiej sprawdzają się lekcje 30-minutowe – pozwalają stopniowo przyzwyczaić się do wody i nowego środowiska. Gdy wzrośnie komfort i kondycja, można śmiało wydłużyć zajęcia do 45 minut.",
+            'faq-question-4': "Jaka długość lekcji jest polecana początek? 30, 45 czy 60 minut?",
+            'faq-answer-4': "Na pierwsze zajęcia zalecamy lekcje 30-minutowe dla dzieci oraz 45-minutowe dla dorosłych. W kolejnych etapach długość zajęć jest dostosowywana indywidualnie – w zależności od potrzeb, możliwości oraz preferencji ucznia.",
 
             # Contact
             'contact_title': "Kontakt",
