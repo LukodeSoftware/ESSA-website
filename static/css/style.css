@@ -215,7 +215,6 @@ a:hover {
 /* Hero Section */
 .hero-section {
   position: relative;
-  background-size: cover;
   height: 110vh;
   min-height: 600px;
   display: flex;
@@ -504,18 +503,10 @@ a:hover {
     column-count: 2;
   }
 
-  .wave-divider-transparent {
-    margin-top: -40px;
-  }
-
   .hero-section {
-  height: 100vh;
+  height: 600px;
+  min-height: 600px;
   background-position: center bottom 0;
-  }
-
-  .social-links {
-    margin-left: 10px;
-    justify-content: flex-start;
   }
 }
 
@@ -524,9 +515,6 @@ a:hover {
     column-count: 1;
   }
 
-  .wave-divider-transparent {
-    margin-top: -15px;
-  }
 }
 
 .gallery-item {
@@ -840,17 +828,6 @@ a:hover {
   .hero-content h1 {
     font-size: 3rem;
   }
-}
-
-@media (max-width: 991.98px) {
-  .section {
-    padding: 60px 0;
-  }
-  
-  .hero-content h1 {
-    font-size: 2.5rem;
-  }
-  
   .navbar-collapse {
     background-color: var(--white); /* White for collapsed navbar background */
     padding: 15px;
@@ -860,6 +837,21 @@ a:hover {
   
   .navbar-nav .nav-link.active::after {
     display: none;
+  }
+  
+  .social-links {
+    margin-left: 10px;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section {
+    padding: 60px 0;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
   }
   
   .offer-item, .location-card {
