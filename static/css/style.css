@@ -403,7 +403,7 @@ a:hover {
 }
 
 .location-content {
-  padding: 20px;
+  padding: 25px;
 }
 
 .location-title {
@@ -501,14 +501,34 @@ a:hover {
 }
 
 @media (max-width: 992px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .offer-item {
+    margin-bottom: 0;
+    padding: 20px;
+    min-height: 200px;
+  }
+
+  .offer-icon {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+  }
+
+  .offer-title {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
   .gallery-container {
     column-count: 2;
   }
 
   .hero-section {
-  height: 600px;
-  min-height: 600px;
-  background-position: center bottom 0;
+    height: 600px;
+    min-height: 600px;
+    background-position: center bottom 0;
   }
 }
 
@@ -756,7 +776,7 @@ a:hover {
 }
 
 .footer-logo {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 20px;
   color: var(--white);
@@ -831,7 +851,7 @@ a:hover {
     font-size: 3rem;
   }
   .navbar-collapse {
-    background-color: var(--white); /* White for collapsed navbar background */
+    background-color: var(--white);
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -844,6 +864,14 @@ a:hover {
   .social-links {
     margin-left: 10px;
     justify-content: flex-start;
+  }
+
+  .location-content {
+    padding: 15px;
+}
+
+  .footer-logo {
+    font-size: 16px;
   }
 }
 
