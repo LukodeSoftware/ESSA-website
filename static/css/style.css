@@ -107,7 +107,7 @@ a:hover {
   background-color: transparent;
   position: relative;
   z-index: 1;
-  margin-top: -60px;
+  margin-top: clamp(-70px, calc(-17px - 2.5vw), -13px);
 }
 
 .wave-divider-light {
@@ -224,7 +224,7 @@ a:hover {
   color: var(--white);
   background-image: url('/static/images/Emilka.jpg');
   background-size: cover;
-  background-position: center bottom -140px;
+  background-position: center bottom 0;
 }
 
 
@@ -989,7 +989,26 @@ a:hover {
   }
 }
 
-/* Wave divider specific breakpoints */
-@media (max-width: 1470px) {
+/* Wave divider specific breakpoints */ 
+@media (max-width: 1120px){
+  .wave-divider-transparent {
+    margin-top: clamp(-60px, calc(-12px - 2.55vw), -13px);
+  }
+}
+ 
+@media (max-width: 770px){
+  .wave-divider-transparent {
+    margin-top: clamp(-50px, calc(-8px - 2.55vw), -13px);
+  }
+}
+@media (max-width: 560px){
+  .wave-divider-transparent {
+    margin-top: clamp(-50px, calc(-6px - 2.55vw), -13px);
+  }
+}
 
+@media (max-width: 415px){
+  .wave-divider-transparent {
+    margin-top: clamp(-50px, calc(-4px - 2.55vw), -11px);
+  }
 }
