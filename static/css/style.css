@@ -99,6 +99,8 @@ a:hover {
 .wave-divider {
   line-height: 0;
   overflow: hidden;
+  margin-bottom: -1px;
+  margin-top: -1px;
 }
 
 .wave-divider-transparent {
@@ -838,7 +840,7 @@ a:hover {
   .navbar-nav .nav-link.active::after {
     display: none;
   }
-  
+
   .social-links {
     margin-left: 10px;
     justify-content: flex-start;
@@ -985,4 +987,9 @@ a:hover {
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
+}
+
+/* Wave divider specific breakpoints */
+@media (max-width: 1470px) {
+
 }
