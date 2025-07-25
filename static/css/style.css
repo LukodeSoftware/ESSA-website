@@ -194,6 +194,12 @@ a:hover {
   margin-left: 15px;
 }
 
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* lub space-between / flex-start / flex-end / etc. */
+}
+
 .social-links a {
     color: var(--text-muted);
     font-size: 1.2rem;
@@ -497,11 +503,29 @@ a:hover {
   .gallery-container {
     column-count: 2;
   }
+
+  .wave-divider-transparent {
+    margin-top: -40px;
+  }
+
+  .hero-section {
+  height: 100vh;
+  background-position: center bottom 0;
+  }
+
+  .social-links {
+    margin-left: 10px;
+    justify-content: flex-start;
+  }
 }
 
 @media (max-width: 576px) {
   .gallery-container {
     column-count: 1;
+  }
+
+  .wave-divider-transparent {
+    margin-top: -15px;
   }
 }
 
