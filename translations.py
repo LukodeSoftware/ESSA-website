@@ -154,37 +154,65 @@ def get_translations(lang):
 
             # Privacy Policy
             'privacy_policy_title': "Privacy Policy",
-            'privacy_intro': "At ESSA, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or use our services.",
 
-            # Information We Collect
-            'information_we_collect_title': "Information We Collect",
-            'personal_information_title': "Personal Information:",
-            'personal_information_text': "When you create an account or make a purchase, we collect personal information such as your name, email address, and shipping address.",
-            'usage_data_title': "Usage Data:",
-            'usage_data_text': "We may collect information about how you interact with our website, including pages visited, time spent, and other analytics data.",
-            'cookies_title': "Cookies:",
-            'cookies_text': "We use cookies to enhance your browsing experience and improve our services.",
+            'section1_title': "1. General Information",
+            'section1_text': "This Privacy Policy outlines the rules for processing personal data through the website operated by ESSA Warsaw swimming school, managed by Bizera sp. z o.o., located at Rusiecka 8a, 03-698 Warsaw, Poland, NIP: 5242765832. For matters related to personal data, please contact us via email: info@essawaw.pl.",
 
-            # How We Use Your Information
-            'how_we_use_information_title': "How We Use Your Information",
-            'order_processing_title': "Order Processing:",
-            'order_processing_text': "We use your personal information to process orders, deliver products, and provide customer support.",
-            'marketing_communications_title': "Marketing Communications:",
-            'marketing_communications_text': "With your consent, we may send you promotional emails or newsletters.",
-            'analytics_title': "Analytics:",
-            'analytics_text': "We analyze usage data to improve our website and services.",
+            'section2_title': "2. Scope of Data Collected",
+            'section2_intro': "As part of our business activities, we process the following data:",
+            'section2_point1': "Identification data (name and surname of the participant and/or legal guardian)",
+            'section2_point2': "Contact data (email address, phone number)",
+            'section2_point3': "Organizational data (age, swimming level)",
+            'section2_point4': "Technical data (IP address, browser type, operating system, connection time)",
+            'section2_point5': "Information from contact forms and class registration",
 
-            # Data Security
-            'data_security_title': "Data Security",
-            'data_security_text': "We take appropriate measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction.",
+            'section3_title': "3. Purposes and Legal Bases for Data Processing",
+            'section3_intro': "We process data for the following purposes:",
+            'section3_point1': "Class registration",
+            'section3_point2': "Inquiry handling",
+            'section3_point3': "Promotional information",
+            'section3_point4': "Accounting documentation – based on legal obligations",
+            'section3_point5': "Website improvement and statistics – based on legitimate interests",
 
-            # Your Rights
-            'your_rights_title': "Your Rights",
-            'your_rights_text': "You have the right to access, correct, or delete your personal information. Please contact us if you have any requests or questions.",
+            'section4_title': "4. Data Recipients",
+            'section4_intro': "Data may be shared with:",
+            'section4_point1': "hosting company",
+            'section4_point2': "cooperating instructors and employees",
+            'section4_point3': "accounting, legal, and IT service providers",
+            'section4_point4': "providers of marketing and analytics tools (e.g., Google, Meta)",
+            'section4_point5': "public authorities when required by law",
 
-            # Changes to this Policy
-            'policy_changes_title': "Changes to this Policy",
-            'policy_changes_text': "We may update this Privacy Policy from time to time. Please review it periodically for any changes.",
+            'section5_title': "5. Data Retention Period",
+            'section5_point1': "Service-related data – up to 5 years after the end of cooperation",
+            'section5_point2': "Marketing data – up to 3 years after the last contact or until consent is withdrawn",
+            'section5_point3': "Technical data – until deleted or according to browser settings",
+
+            'section6_title': "6. Your Rights",
+            'section6_intro': "You have the right to:",
+            'section6_point1': "access your data",
+            'section6_point2': "rectify your data",
+            'section6_point3': "delete your data",
+            'section6_point4': "restrict processing",
+            'section6_point5': "data portability",
+            'section6_point6': "object to processing",
+            'section6_point7': "withdraw consent at any time",
+            'section6_point8': "file a complaint with the President of the Personal Data Protection Office (ul. Stawki 2, 00-193 Warsaw)",
+
+            'section7_title': "7. Cookies and Tracking Technologies",
+            'section7_intro': "The website uses cookies for the following purposes:",
+            'section7_point1': "maintaining sessions after visiting the site",
+            'section7_point2': "statistical analysis (e.g., Google Analytics)",
+            'section7_point3': "personalized advertising content",
+            'section7_text': "Users can manage cookies through browser settings. Limiting cookies may affect the functionality of some parts of the site.",
+
+            'section8_title': "8. Security Measures",
+            'section8_point1': "SSL encrypted connection",
+            'section8_point2': "regular system updates",
+            'section8_point3': "data backups",
+            'section8_point4': "data access restricted to authorized personnel",
+
+            'section9_title': "9. Changes to the Privacy Policy",
+            'section9_text': "This Privacy Policy may be updated periodically. The current version will always be available on our website. We recommend reviewing it regularly. Last updated: July 29, 2025."
         },
         'pl': {
             # General
@@ -353,33 +381,66 @@ def get_translations(lang):
             '500_message': "Coś poszło nie tak na naszym serwerze. Spróbuj ponownie później.",
 
             # Privacy policy
-            'privacy_policy_title': "Polityka prywatności",
-            'privacy_intro': "W ESSA dokładamy wszelkich starań, aby chronić Twoją prywatność. Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób gromadzimy, wykorzystujemy i chronimy Twoje dane osobowe, gdy odwiedzasz naszą stronę lub korzystasz z naszych usług.",
+            'privacy_policy_title': "Polityka Prywatności",
 
-            'information_we_collect_title': "Informacje, które zbieramy",
-            'personal_information_title': "Dane osobowe:",
-            'personal_information_text': "Gdy tworzysz konto lub dokonujesz zakupu, zbieramy dane osobowe takie jak imię i nazwisko, adres e-mail oraz adres dostawy.",
-            'usage_data_title': "Dane o użytkowaniu:",
-            'usage_data_text': "Możemy zbierać informacje o tym, jak korzystasz z naszej strony, w tym odwiedzane strony, czas spędzony i inne dane analityczne.",
-            'cookies_title': "Pliki cookies:",
-            'cookies_text': "Używamy plików cookies, aby poprawić Twoje wrażenia z przeglądania oraz ulepszać nasze usługi.",
+            'section1_title': "1. Informacje ogólne",
+            'section1_text': "Niniejsza Polityka Prywatności określa zasady przetwarzania danych osobowych za pośrednictwem strony internetowej prowadzonej przez szkółkę pływacką ESSA Warsaw, prowadzoną przez Bizera sp. z o.o., z siedzibą przy ul. Rusieckiej 8a, 03-698 Warszawa, NIP: 5242765832. W sprawach związanych z danymi osobowymi można się skontaktować mailowo: info@essawaw.pl.",
 
-            'how_we_use_information_title': "Jak wykorzystujemy Twoje dane",
-            'order_processing_title': "Przetwarzanie zamówień:",
-            'order_processing_text': "Używamy Twoich danych osobowych do realizacji zamówień, dostarczania produktów i obsługi klienta.",
-            'marketing_communications_title': "Komunikacja marketingowa:",
-            'marketing_communications_text': "Za Twoją zgodą możemy wysyłać Ci e-maile promocyjne lub biuletyny.",
-            'analytics_title': "Analityka:",
-            'analytics_text': "Analizujemy dane o użytkowaniu, aby ulepszać naszą stronę internetową i usługi.",
+            'section2_title': "2. Zakres zbieranych danych",
+            'section2_intro': "W ramach prowadzonej działalności przetwarzamy następujące dane:",
+            'section2_point1': "Dane identyfikacyjne (imię i nazwisko kursanta i/lub opiekuna prawnego)",
+            'section2_point2': "Dane kontaktowe (adres e-mail, numer telefonu)",
+            'section2_point3': "Dane organizacyjne (wiek, poziom pływacki)",
+            'section2_point4': "Dane techniczne (adres IP, rodzaj przeglądarki, system operacyjny, czas połączenia)",
+            'section2_point5': "Informacje z formularzy kontaktowych i zapisów na zajęcia",
 
-            'data_security_title': "Bezpieczeństwo danych",
-            'data_security_text': "Podejmujemy odpowiednie środki, aby chronić Twoje dane osobowe przed nieautoryzowanym dostępem, ujawnieniem, zmianą lub zniszczeniem.",
+            'section3_title': "3. Cele i podstawy przetwarzania danych",
+            'section3_intro': "Dane przetwarzamy w następujących celach:",
+            'section3_point1': "Zapisy na zajęcia",
+            'section3_point2': "Obsługa zapytań",
+            'section3_point3': "Informacje promocyjne",
+            'section3_point4': "Prowadzenie dokumentacji księgowej – na podstawie obowiązku prawnego",
+            'section3_point5': "Usprawnianie działania strony i statystyki – na podstawie prawnie uzasadnionego interesu",
 
-            'your_rights_title': "Twoje prawa",
-            'your_rights_text': "Masz prawo do dostępu, poprawiania lub usuwania swoich danych osobowych. Skontaktuj się z nami w razie pytań lub wniosków.",
+            'section4_title': "4. Odbiorcy danych",
+            'section4_intro': "Dane mogą być przekazywane:",
+            'section4_point1': "firmie hostingowej",
+            'section4_point2': "współpracującym instruktorom i pracownikom",
+            'section4_point3': "firmom księgowym, prawnym i IT",
+            'section4_point4': "dostawcom narzędzi marketingowych i analitycznych (np. Google, Meta)",
+            'section4_point5': "organom publicznym, jeśli wymagają tego przepisy prawa",
 
-            'policy_changes_title': "Zmiany w tej polityce",
-            'policy_changes_text': "Możemy od czasu do czasu aktualizować niniejszą Politykę Prywatności. Prosimy o okresowe jej przeglądanie w celu zapoznania się z ewentualnymi zmianami.",
+            'section5_title': "5. Okres przechowywania danych",
+            'section5_point1': "Dane potrzebne do realizacji usług – do 5 lat od zakończenia współpracy",
+            'section5_point2': "Dane marketingowe – do 3 lat od ostatniego kontaktu lub do momentu wycofania zgody",
+            'section5_point3': "Dane techniczne – do momentu usunięcia lub zgodnie z ustawieniami przeglądarki",
+
+            'section6_title': "6. Twoje prawa",
+            'section6_intro': "Masz prawo do:",
+            'section6_point1': "dostępu do swoich danych",
+            'section6_point2': "sprostowania danych",
+            'section6_point3': "usunięcia danych",
+            'section6_point4': "ograniczenia przetwarzania",
+            'section6_point5': "przeniesienia danych",
+            'section6_point6': "wniesienia sprzeciwu wobec przetwarzania",
+            'section6_point7': "wycofania zgody w dowolnym momencie",
+            'section6_point8': "złożenia skargi do Prezesa UODO (ul. Stawki 2, 00-193 Warszawa)",
+
+            'section7_title': "7. Pliki cookies i technologie śledzące",
+            'section7_intro': "Strona korzysta z plików cookies w celu:",
+            'section7_point1': "utrzymania sesji po wejściu na stronę",
+            'section7_point2': "analizy statystycznej (np. Google Analytics)",
+            'section7_point3': "personalizacji treści reklamowych",
+            'section7_text': "Użytkownik może samodzielnie zarządzać plikami cookies poprzez ustawienia przeglądarki. Ograniczenie stosowania cookies może wpłynąć na działanie niektórych funkcji strony.",
+
+            'section8_title': "8. Środki bezpieczeństwa",
+            'section8_point1': "szyfrowanie połączenia (SSL)",
+            'section8_point2': "regularne aktualizacje systemu",
+            'section8_point3': "kopie zapasowe danych",
+            'section8_point4': "dostęp do danych tylko przez uprawnione osoby",
+
+            'section9_title': "9. Zmiany w Polityce Prywatności",
+            'section9_text': "Polityka prywatności może być okresowo aktualizowana. Aktualna wersja zawsze będzie dostępna na naszej stronie. Zalecamy jej regularne przeglądanie. Data ostatniej aktualizacji: 29 lipca 2025."
         }
     }
 
