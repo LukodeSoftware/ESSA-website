@@ -47,7 +47,7 @@ def get_translations(lang):
             'about_school_cta': "Sign up today",
 
             # Locations & Schedule
-            'locations_title': "Our Locations",
+            'locations_title': "Our locations",
             'links_header': "Links",
             'schedule_heading': "Lesson hours:",
             'schedule_saturday': "Saturday: 11:00 AM – 8:00 PM",
@@ -257,10 +257,10 @@ def get_translations(lang):
             'about_school_point_1': "Doświadczonych instruktorów",
             'about_school_point_2': "Skuteczne metody nauczania",
             'about_school_point_3': "Przyjazną i wspierającą atmosferę",
-            'about_school_cta': "Zapisz się dziś",
+            'about_school_cta': "Zapisz się!",
 
             # Locations & Schedule
-            'locations_title': "Nasze Lokalizacje",
+            'locations_title': "Nasze lokalizacje",
             'schedule_heading': "Godziny zajęć:",
             'schedule_saturday': "Sobota: 11:00 – 20:00",
             'schedule_sunday': "Niedziela: 12:00 – 20:00",

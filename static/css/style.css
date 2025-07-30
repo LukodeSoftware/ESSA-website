@@ -74,7 +74,7 @@ a:hover {
 }
 
 .section-title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -377,7 +377,6 @@ a:hover {
 
 /* Locations & Schedule */
 .locations-section {
-  background-color: var(--primary-light);
   padding-bottom: 20px;
 }
 
@@ -436,10 +435,9 @@ a:hover {
 .booking-section {
   background-size: cover;
   color: var(--primary-dark);
-  background-color: var(--light-blue);
 }
 
-#booking-section-about {
+#booking-section-about #booking-section-home {
   background-color: var(--primary-light);
 }
 
