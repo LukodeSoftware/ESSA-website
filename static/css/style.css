@@ -727,6 +727,11 @@ a:hover {
   margin-bottom: 5px;
 }
 
+#contact-form-title {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
 .contact-form .form-control {
   height: auto;background-color: var(--white); /* White for form elements */
   padding: 15px;

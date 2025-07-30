@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 
-<div class="row">
+                <div class="row">
                     <div class="col-lg-6 mb-4">
                         <div class="location-card animate__animated animate__fadeInUp">
                             <div class="location-map">
@@ -100,7 +100,7 @@
             
             <div class="col-lg-6">
                 <div class="contact-form-wrapper bg-light-blue p-4 rounded">
-                    <h3 class="mb-4">{{ translations['contact_form_title'] }}</h3>
+                    <h3 class="mb-4" id="contact-form-title">{{ translations['contact_form_title'] }}</h3>
                     
                     <form id="contactForm" action="{{ url_for('contact') }}" method="POST" class="contact-form needs-validation" novalidate>
                         {{ form.csrf_token }}
@@ -147,14 +147,14 @@
     </div>
 </section>
 
-<div class="wave-divider wave-divider-light">
+<!-- <div class="wave-divider wave-divider-light">
   <svg viewBox="0 20 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
     <path fill="#e3f2fd" d="M0,50 C360,-30 1080,130 1440,50 L1440,100 L0,100 Z"></path>
   </svg>
-</div>
+</div> -->
 
 <!-- Schedule Section -->
-<section class="section bg-light-blue">
+<!-- <section class="section bg-light-blue">
     <div class="container">
         <div class="section-title">
             <h2>{{ translations['schedule_heading'] }}</h2>
@@ -200,5 +200,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 {% endblock %}

@@ -47,8 +47,7 @@ def get_translations(lang):
             'about_school_cta': "Sign up today",
 
             # Locations & Schedule
-            'locations_title': "Where and When?",
-            'locations_title_footer': "Our Locations",
+            'locations_title': "Our Locations",
             'links_header': "Links",
             'schedule_heading': "Lesson hours:",
             'schedule_saturday': "Saturday: 11:00 AM – 8:00 PM",
@@ -261,11 +260,10 @@ def get_translations(lang):
             'about_school_cta': "Zapisz się dziś",
 
             # Locations & Schedule
-            'locations_title': "Gdzie i kiedy?",
+            'locations_title': "Nasze Lokalizacje",
             'schedule_heading': "Godziny zajęć:",
             'schedule_saturday': "Sobota: 11:00 – 20:00",
             'schedule_sunday': "Niedziela: 12:00 – 20:00",
-            'locations_heading': "Lokalizacje:",
             'location_1': "Pływalnia Inflancka",
             'location_1_address': "ul. Inflancka 8, Warszawa",
             'location_1_more': "Więcej o tej lokalizacji",
@@ -348,7 +346,7 @@ def get_translations(lang):
             'contact_title': "Kontakt",
             'contact_phone': "Telefon",
             'contact_email': "Email",
-            'contact_form_title': "Wyślij nam wiadomość",
+            'contact_form_title': "Napisz do nas",
             'contact_name': "Imię i nazwisko",
             'contact_email_field': "Email",
             'contact_phone_field': "Telefon",
