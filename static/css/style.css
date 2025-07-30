@@ -498,9 +498,20 @@ a:hover {
   column-gap: 15px;
 }
 
+@media (min-width: 993px) {
+  .hero {
+    height: 80vh; 
+  }
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 2rem;
+  }
+
+  .hero {
+      height: 60vh; 
+      min-height: 300px;
   }
 
   .offer-item {
