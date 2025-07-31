@@ -573,6 +573,7 @@ a:hover {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   width: 100%;
   height: 500px; /* div height */
+  margin: 30px 0;
 }
 
 .about-img img {
@@ -587,12 +588,10 @@ a:hover {
 }
 
 .lead {
-  text-align: justify;
   font-size: 1.1rem;
 }
 
 .achievement-item {
-  margin-bottom: 20px;
   padding: 15px;
   background-color: var(--light-blue);
   border-left: 3px solid var(--highlight-color);
@@ -887,6 +886,10 @@ a:hover {
   .footer-logo {
     font-size: 16px;
   }
+
+  .about-img-shift img {
+  object-position: center;
+}
 }
 
 @media (max-width: 991.98px) {
@@ -901,6 +904,9 @@ a:hover {
   .offer-item, .location-card {
     margin-bottom: 30px;
   }
+  .about-img-shift img {
+  object-position: center calc(50% - 70px); /* środek + 50px w dół */
+}
 }
 
 @media (max-width: 767.98px) {
@@ -954,6 +960,9 @@ a:hover {
   .footer-links {
     margin-top: 30px;
   }
+  .about-img-shift img {
+  object-position: center;
+}
 }
 
 /* Animations */
