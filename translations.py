@@ -283,24 +283,17 @@ def get_translations(lang):
             # About Me
             'about_title': "O mnie",
             'about_intro': "Poznaj Emilię - Wielokrotną Mistrzynię Polski w Pływaniu",
-            'about_description': """Nazywam się Emilka i jestem założycielką szkółki pływackiej ESSA Warsaw.
-
-                Pomimo młodego wieku, z pływaniem jestem związana od ponad 20 lat – najpierw jako zawodniczka, później jako instruktorka. Przez wiele lat trenowałam w klubach sportowych, startując na najwyższym poziomie krajowym.
-
-                Jestem wielokrotną medalistką Mistrzostw Polski. Zdobywałam złote, srebrne i brązowe medale zarówno na krótkim, jak i długim basenie, specjalizując się w stylu grzbietowym i zmiennym. Moje koronne dystanse to:
-                50, 100 i 200 metrów stylem grzbietowym oraz 100 i 200 metrów stylem zmiennym.
-                Brałam również udział w zawodach międzynarodowych.
-
-                Obecnie łączę pasję do sportu ze studiami prawniczymi. Jak tylko mogę to startuję w Akademickich Mistrzostwach Polski, gdzie również udaje mi się sięgać po medale.
-
-                Od kilku lat zajmuję się nauczaniem pływania dzieci, młodzieży i dorosłych. Pracuję zarówno z osobami, które dopiero zaczynają swoją przygodę z wodą, jak i z tymi, które chcą poprawić technikę czy przygotować się do zawodów lub testów sprawnościowych. W pracy stawiam na indywidualne podejście, komfort, bezpieczeństwo i pozytywną atmosferę.
-
-                Dlaczego ESSA?
-
-                ESSA to skrót od Emi’s Swim School Academy, ale także słowo oznaczające luz, radość i swobodę – dokładnie to, co chcę przekazywać moim kursantom na zajęciach.
-
-                Jeśli szukasz profesjonalnej nauki pływania w przyjaznej atmosferze – zapraszam!
-                Pływaj ze mną i ESSA!""",
+            'about_greeting': "Cześć!",
+            'about_description1': """Nazywam się Emilka i jestem założycielką szkółki pływackiej ESSA Warsaw.
+            Z pływaniem jestem związana od ponad 20 lat, najpierw jako zawodniczka, później instruktorka.""",
+            'about_description2': """Przez lata trenowałam w klubach sportowych, startując na najwyższym krajowym poziomie.
+            Jestem wielokrotną medalistką Mistrzostw Polski na krótkim i długim basenie, specjalizując się w stylu grzbietowym i zmiennym na dystansach 50, 100 i 200 metrów. Brałam także udział w zawodach międzynarodowych.""",
+            'about_description3': """Obecnie łączę pasję do sportu ze studiami prawniczymi i startami w Akademickich Mistrzostwach Polski, gdzie również zdobywam medale.""",
+            'about_description4': """Od kilku lat uczę pływać dzieci, młodzież i dorosłych, od osób zaczynających przygodę z wodą po tych, którzy chcą poprawić technikę, przygotować się do zawodów lub testów sprawnościowych.""",
+            'about_description5': "Na zajęciach stawiam na indywidualne podejście, bezpieczeństwo i dobrą atmosferę.",
+            'about_description6': "Dlaczego ESSA?",
+            'about_description7': """To skrót od Emi’s Swim School Academy, ale też słowo oznaczające luz i radość, które towarzyszą moim zajęciom.""",
+            'about_description8': """Jeśli chcesz uczyć się pływać w profesjonalny, ale swobodny sposób to zapraszam do ESSA Warsaw!""",
             'about_achievements': "Osiągnięcia",
             'about_experience': "Doświadczenie w nauczaniu",
             'testimonials_title': "Opinie",
