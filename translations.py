@@ -77,6 +77,26 @@ def get_translations(lang):
             'about_experience': "Teaching Experience",
             'testimonials_title': "Testimonials",
 
+            # Achievements
+            'achievement1': "Multiple-time medalist at the Polish Championships",
+            'achievement2': "Winner of Championnats in Paris",
+            'achievement3': "National Team Member",
+            'achievement4': "University Sports Medalist",
+            'achievement1_description': "Won national championships in backstroke and medley.",
+            'achievement2_description': "Won international championships in 200m backstroke.",
+            'achievement3_description': "Represented Poland as a member of the national swimming team.",
+            'achievement4_description': "Multiple medals representing Univeristy SWPS Warsaw.",
+
+            # Teaching experience
+            'teaching_experience_intro': "After my competitive swimming career, I have focused on teaching swimming to people of all ages. I have over 5 years of experience teaching children and adults:",
+            'teaching_experience1': "Certified swimming instructor with specialized training in teaching children",
+            'teaching_experience2': "Experience with students of all levels from beginners to competitive swimmers",
+            'teaching_experience3': "Modern teaching methods focusing on proper technique and enjoyment",
+            'teaching_experience4': "Personalized approach adapted to each student's abilities and goals",
+            'teaching_experience5': "Specialized in helping students overcome fear of water",
+            'teaching_experience6': "Preparation for competitions and exams",
+            'teaching_experience_outro': "My teaching philosophy is based on creating a supportive, encouraging environment where students can develop their swimming skills at their own pace. I believe that everyone can learn to swim with the right guidance and patience",
+
             # Pricing
             'pricing_title': "Pricing",
             'basic_prices': "Basic prices",
@@ -297,6 +317,28 @@ def get_translations(lang):
             'about_achievements': "Osiągnięcia",
             'about_experience': "Doświadczenie w nauczaniu",
             'testimonials_title': "Opinie",
+
+            # Achievements
+            'achievement1': "Wielokrotna medalistka Mistrzostw Polski",
+            'achievement2': "Zwyciężczyni zawodów Championnats w Paryżu",
+            'achievement3': "Reprezentantka Kadry Narodowej",
+            'achievement4': "Medalistka Akademickich Mistrzostw Polski",
+            'achievement1_description': "Zwycięstwa w mistrzostwach Polski w stylu grzbietowym i zmiennym.",
+            'achievement2_description': "Zwycięstwo w międzynarodowych zawodach na 200 m stylem grzbietowym.",
+            'achievement3_description': "Reprezentowała Polskę jako członkini narodowej kadry pływackiej.",
+            'achievement4_description': "Wielokrotne medale w barwach Uniwersytetu SWPS w Warszawie.",
+
+
+            # Teaching experience
+            'teaching_experience_intro': "Po zakończeniu kariery zawodniczej skupiłem się na nauczaniu pływania osób w każdym wieku. Mam ponad 5 lat doświadczenia w pracy z dziećmi i dorosłymi:",
+            'teaching_experience1': "Certyfikowany instruktor pływania ze specjalistycznym szkoleniem w pracy z dziećmi",
+            'teaching_experience2': "Doświadczenie w pracy z osobami na każdym poziomie – od początkujących po pływaków wyczynowych",
+            'teaching_experience3': "Nowoczesne metody nauczania skupiające się na poprawnej technice i przyjemności z pływania",
+            'teaching_experience4': "Indywidualne podejście dopasowane do możliwości i celów każdego ucznia",
+            'teaching_experience5': "Specjalizacja w pracy z osobami z lękiem przed wodą",
+            'teaching_experience6': "Przygotowanie do zawodów i egzaminów",
+            'teaching_experience_outro': "Moja filozofia nauczania opiera się na tworzeniu wspierającej, motywującej atmosfery, w której uczniowie mogą rozwijać swoje umiejętności pływackie we własnym tempie. Wierzę, że każdy może nauczyć się pływać przy odpowiednim wsparciu i cierpliwości.",
+
 
 
             # Pricing
