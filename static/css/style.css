@@ -141,7 +141,8 @@ a:hover {
 }
 
 .navbar-brand img {
-  height: 70px;
+  height: 90px;
+  border-radius: 10px;
 }
 
 .subtitle {
@@ -604,10 +605,10 @@ a:hover {
   color: var(--primary-dark);
 }
 
-.achievement-date {
+/* .achievement-date {
   font-size: 0.9rem;
   color: var(--gray);
-}
+} */
 
 /* Pricing */
 .pricing-table {

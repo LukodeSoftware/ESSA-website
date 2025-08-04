@@ -3,7 +3,7 @@ def get_translations(lang):
         'en': {
             # General
             'site_name': "Emi's Swim School Academy",
-            'site_subtitle': "Swimming Lessons in Warsaw",
+            'site_subtitle': "Private Swimming Lessons in Warsaw",
             'site_name_subtitle': "Swimming Lessons Warsaw",
 
             # Navigation
@@ -14,15 +14,15 @@ def get_translations(lang):
             'nav_contact': "Contact",
 
             # Hero Section
-            'hero_headline': "Private swimming lessons with a multiple-time Polish champion!",
+            'hero_headline': "Learn how to swim with a multiple-time Polish champion!",
             'hero_cta': "Book a lesson",
 
             # What We Offer
             'offer_title': "What We Offer",
             'offer_1': "Private swimming lessons in Warsaw",
-            'offer_2': "Fun and effective lessons for children and adults",
+            'offer_2': "Effective and fun lessons for children and adults",
             'offer_3': "Professional swimming technique training",
-            'offer_4': "Learning swimming elements (e.g. diving, turns)",
+            'offer_4': "Learning swimming elements (e.g. jumps, diving, turns)",
             'offer_5': "Preparation for swimming and triathlon competitions",
             'offer_6': "Preparation for fitness and swimming exams",
             'offer_7': "Fun water activities for children",
@@ -38,7 +38,7 @@ def get_translations(lang):
             'voucher_button': "View pricing",
 
             # About School
-            'about_school_title': "ESSA Swim School Warsaw – Enroll Today!",
+            'about_school_title': "ESSA Swim School Warsaw – Sign Up Today!",
             'about_school_text': "ESSA is the perfect place to start your swimming journey, improve your technique, or prepare for competitions. Our classes are tailored to all age groups and skill levels – from young children to adults.",
             'about_school_guarantee': "We guarantee:",
             'about_school_point_1': "Experienced instructors",
@@ -72,14 +72,24 @@ def get_translations(lang):
             # About Me
             'about_title': "About Me",
             'about_intro': "Meet Emilia - Multiple-time Polish Swimming Champion",
-            'about_description': "As a multiple-time Polish swimming champion, I've dedicated my life to mastering the art of swimming. Now, I'm passionate about sharing my knowledge and experience with both children and adults who want to learn or improve their swimming techniques.",
+            'about_greeting': "Hi!",
+            'about_description1': """My name is Emilka and I’m the founder of the ESSA Warsaw swim school.
+            I’ve been involved in swimming for over 20 years — first as a competitor, and later as an instructor.""",
+            'about_description2': """For years, I trained in sports clubs, competing at the highest national level.
+            I’m a multiple medalist of the Polish Championships in both short and long course pools, specializing in backstroke and individual medley in 50, 100, and 200-meter distances. I also took part in international competitions.""",
+            'about_description3': """Currently, I combine my passion for sports with law studies and take part in the Polish Academic Championships, where I also win medals.""",
+            'about_description4': """For several years, I’ve been teaching children, teenagers, and adults how to swim — from beginners to those who want to improve their technique, prepare for competitions, or pass physical fitness tests.""",
+            'about_description5': "In my classes, I focus on an individual approach, safety, and a positive atmosphere.",
+            'about_description6': "Why ESSA?",
+            'about_description7': """It’s short for Emi’s Swim School Academy, but it also means chill and joy — the vibe I bring to my lessons.""",
+            'about_description8': """If you want to learn to swim in a professional yet relaxed way, I warmly invite you to ESSA Warsaw!""",
             'about_achievements': "Achievements",
             'about_experience': "Teaching Experience",
             'testimonials_title': "Testimonials",
 
             # Achievements
             'achievement1': "Multiple-time medalist at the Polish Championships",
-            'achievement2': "Winner of Championnats in Paris",
+            'achievement2': "Winner of Championnats - Paris",
             'achievement3': "National Team Member",
             'achievement4': "University Sports Medalist",
             'achievement1_description': "Won national championships in backstroke and medley.",
@@ -117,7 +127,7 @@ def get_translations(lang):
             'pricing_10_lessons_1_person': "10 lessons (1 person)",
             'pricing_10_lessons_2_persons': "10 lessons (2 people)",
             'person': "person",
-            'pricing_info': "All packages must be used within 2 months from the first lesson. Cancellations must be madeat least 24 hours in advance, otherwise the lesson is counted as completed.",
+            'pricing_info': "Lessons can be canceled no later than 24 hours before their start. After this time, the lesson will be considered as conducted and the payment will not be refunded.",
 
             # Payment details
             'payment_details_title': "Payment details",
@@ -129,13 +139,13 @@ def get_translations(lang):
             # FAQ
             'faq-title': "Frequently Asked Questions",
             'faq-question-1': "What should I bring to my swimming lesson?",
-            'faq-answer-1': "Please bring your swimming suit, a towel, swimming cap, and goggles. It's also good to have flip-flops for pool area. All other equipment like kickboards or pull buoys will be provided during the lesson.",
+            'faq-answer-1': "Please bring your swimming suit, a towel, swimming cap, goggles and flip-flops. All other equipment like kickboards or pull buoys will be provided during the lesson.",
             'faq-question-2': "How do I cancel or reschedule a lesson?",
-            'faq-answer-2': "You can cancel or reschedule your lesson by contacting us via phone or email at least 24 hours before your scheduled lesson. Cancellations with less than 24 hours notice will be charged as a completed lesson.",
+            'faq-answer-2': "You can cancel or reschedule your lesson by contacting us via phone or email no later than 24 hours before your scheduled lesson. Cancellations with less than 24 hours notice will be charged as a completed lesson.",
             'faq-question-3': "How long does it take to learn to swim?",
-            'faq-answer-3': "Learning to swim is a very individual process. Some students feel comfortable in water after just a few lessons, while others may take more time. Generally, with regular lessons (once per week), most students can learn basic swimming skills within 2-3 months.",
+            'faq-answer-3': "Learning to swim is a very individual process. Some students feel comfortable in water after just a few lessons, while others may take more time. Generally, with regular lessons (1-2 per week), most students can learn basic swimming skills within 2-3 months.",
             'faq-question-4': "What length of lesson is recommended to start with? 30, 45 or 60 minutes?",
-            'faq-answer-4': "For the first lessons, we recommend 30-minute sessions for children and 45-minute sessions for adults. As the course progresses, the lesson duration is adjusted individually based on the student’s needs, abilities, and preferences.",
+            'faq-answer-4': "For the first lesson, we recommend 30-minute sessions for children and 45-minute sessions for adults. As the course progresses, the lesson duration is adjusted individually based on the student’s needs, abilities, and preferences.",
 
             # Contact
             'contact_title': "Contact Us",
@@ -236,7 +246,7 @@ def get_translations(lang):
         'pl': {
             # General
             'site_name': "Emi's Swim School Academy",
-            'site_subtitle': "Lekcje pływania w Warszawie",
+            'site_subtitle': "Prywatne lekcje pływania w Warszawie",
             'site_name_subtitle': "Nauka Pływania Warszawa",
 
             # Navigation
@@ -247,15 +257,15 @@ def get_translations(lang):
             'nav_contact': "Kontakt",
 
             # Hero Section
-            'hero_headline': "Prywatne lekcje pływania z wielokrotną mistrzynią Polski!",
+            'hero_headline': "Naucz się pływać z wielokrotną mistrzynią Polski!",
             'hero_cta': "Zarezerwuj lekcję",
 
             # What We Offer
             'offer_title': "Co oferujemy",
             'offer_1': "Prywatne lekcje pływania w Warszawie",
-            'offer_2': "Zabawne i skuteczne zajęcia dla dzieci i dorosłych",
+            'offer_2': "Efektywne i przyjemne zajęcia dla dzieci i dorosłych",
             'offer_3': "Profesjonalne doskonalenie techniki pływania",
-            'offer_4': "Nauka elementów pływania (np. nurkowanie, nawroty)",
+            'offer_4': "Nauka elementów pływania (np. skoki, nurkowanie, nawroty)",
             'offer_5': "Przygotowanie do zawodów pływackich i triathlonowych",
             'offer_6': "Przygotowanie do egzaminów sprawnościowych i pływackich",
             'offer_7': "Zabawy w wodzie dla najmłodszych",
@@ -320,7 +330,7 @@ def get_translations(lang):
 
             # Achievements
             'achievement1': "Wielokrotna medalistka Mistrzostw Polski",
-            'achievement2': "Zwyciężczyni zawodów Championnats w Paryżu",
+            'achievement2': "Zwyciężczyni zawodów Championnats - Paris",
             'achievement3': "Reprezentantka Kadry Narodowej",
             'achievement4': "Medalistka Akademickich Mistrzostw Polski",
             'achievement1_description': "Zwycięstwa w mistrzostwach Polski w stylu grzbietowym i zmiennym.",
@@ -330,7 +340,7 @@ def get_translations(lang):
 
 
             # Teaching experience
-            'teaching_experience_intro': "Po zakończeniu kariery zawodniczej skupiłem się na nauczaniu pływania osób w każdym wieku. Mam ponad 5 lat doświadczenia w pracy z dziećmi i dorosłymi:",
+            'teaching_experience_intro': "Po zakończeniu kariery zawodowej skupiłam się na nauczaniu pływania osób w każdym wieku. Mam ponad 5 lat doświadczenia w pracy z dziećmi i dorosłymi:",
             'teaching_experience1': "Certyfikowany instruktor pływania ze specjalistycznym szkoleniem w pracy z dziećmi",
             'teaching_experience2': "Doświadczenie w pracy z osobami na każdym poziomie – od początkujących po pływaków wyczynowych",
             'teaching_experience3': "Nowoczesne metody nauczania skupiające się na poprawnej technice i przyjemności z pływania",
@@ -357,7 +367,7 @@ def get_translations(lang):
             'pricing_10_lessons_1_person': "10 zajęć (1 os.)",
             'pricing_10_lessons_2_persons': "10 zajęć (2 os.)",
             'person': "os.",
-            'pricing_info': "Wszystkie pakiety muszą zostać wykorzystane w ciągu 2 miesięcy od pierwszej lekcji. Anulacje muszą zostać dokonane co najmniej 24 godziny wcześniej, w przeciwnym razie lekcja zostanie uznana za zakończoną.",
+            'pricing_info': "Zajęcia można anulować najpóźniej 24 godziny przed ich rozpoczęciem. Po tym czasie lekcja zostanie uznana za odbytą, a opłata nie zostanie zwrócona.",
 
             # Payment details
             'payment_details_title': "Dane do płatności",
@@ -368,12 +378,12 @@ def get_translations(lang):
 
             # FAQ
             'faq-title': "Najczęściej Zadawane Pytania",
-            'faq-question-1': "Co powinienem przynieść na lekcję pływania?",
-            'faq-answer-1': "Proszę zabrać ze sobą strój kąpielowy, ręcznik, czepek i okularki. Dobrze jest też mieć klapki na basenie. Cały pozostały sprzęt, taki jak deski do pływania lub bojki, będzie zapewniony podczas lekcji.",
+            'faq-question-1': "Co przynieść na lekcję pływania?",
+            'faq-answer-1': " Proszę zabrać ze sobą strój kąpielowy, ręcznik, czepek, okularki i klapki. Cały pozostały sprzęt, taki jak deski do pływania lub bojki, będzie zapewniony podczas lekcji.",
             'faq-question-2': "Jak odwołać lub przełożyć lekcję?",
-            'faq-answer-2': "Możesz anulować lub przełożyć lekcję, kontaktując się z nami telefonicznie lub e-mailem co najmniej 24 godziny przed zaplanowaną lekcją. Za lekcje odwołane w czasie krótszym niż 24h przed zajęciami nie przysługuje zwrot.",
+            'faq-answer-2': "Możesz anulować lub przełożyć lekcję, kontaktując się z nami telefonicznie lub e-mailem najpóźniej 24 godziny przed zaplanowaną lekcją. Za lekcje odwołane w czasie krótszym niż 24 godziny przed zajęciami nie przysługuje zwrot.",
             'faq-question-3': "Ile czasu zajmuje nauczenie się pływania?",
-            'faq-answer-3': "Nauka pływania to bardzo indywidualny proces. Niektórzy uczniowie czują się komfortowo w wodzie już po kilku lekcjach, podczas gdy inni potrzebują więcej czasu. Zazwyczaj, przy regularnych lekcjach (raz w tygodniu), większość uczniów może nauczyć się podstawowych umiejętności pływania w ciągu 2-3 miesięcy.",
+            'faq-answer-3': "Nauka pływania to bardzo indywidualny proces. Niektórzy uczniowie czują się komfortowo w wodzie już po kilku lekcjach, podczas gdy inni potrzebują więcej czasu. Zazwyczaj, przy regularnych lekcjach (1-2 razy w tygodniu), większość uczniów może nauczyć się podstawowych umiejętności pływania w ciągu 2-3 miesięcy.",
             'faq-question-4': "Jaka długość lekcji jest polecana początek? 30, 45 czy 60 minut?",
             'faq-answer-4': "Na pierwsze zajęcia zalecamy lekcje 30-minutowe dla dzieci oraz 45-minutowe dla dorosłych. W kolejnych etapach długość zajęć jest dostosowywana indywidualnie – w zależności od potrzeb, możliwości oraz preferencji ucznia.",
 
