@@ -19,21 +19,12 @@
   </svg>
 </div>
 
-<!-- Gallery Section -->
 <section class="section">
     <div class="container">
-        <div class="section-title">
-            <h2>{{ translations['gallery_title'] }}</h2>
-        </div>
-        
         <div class="gallery-container">
             <!-- Gallery Items -->
             <div class="gallery-item">
                 <img src="{{ url_for('static', filename='images/Emilka.jpg') }}" alt="Instruktor Pływania Emilia" class="img-fluid">
-            </div>
-
-            <div class="gallery-item">
-                <img src="{{ url_for('static', filename='images/nauka-plywania-dziecko.jpg') }}" alt="Nauka Pływania dla Dzieci" class="img-fluid">
             </div>
 
             <div class="gallery-item">
@@ -58,14 +49,6 @@
             
             <div class="gallery-item">
                 <img src="{{ url_for('static', filename='images/Emilia-termy-malta.jpg') }}" alt="Instruktor Emilia na zawodach pływackich" class="img-fluid">
-            </div>
-            
-            <div class="gallery-item">
-                <img src="{{ url_for('static', filename='images/nauka-plywania-z-Emilia.jpg') }}" alt="Nauka pływania" class="img-fluid">
-            </div>
-            
-            <div class="gallery-item">
-                <img src="{{ url_for('static', filename='images/IMG_3046.jpg') }}" alt="Instruktor Emilia z uczniem" class="img-fluid">
             </div>
 
             <div class="gallery-item">
@@ -106,6 +89,38 @@
 <div class="wave-divider wave-divider-light">
   <svg viewBox="0 20 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
     <path fill="#e3f2fd" d="M0,50 C360,-30 1080,130 1440,50 L1440,100 L0,100 Z"></path>
+  </svg>
+</div>
+
+<!-- Gallery Section -->
+<section class="section bg-light-blue">
+    <div class="container">
+        <div class="section-title">
+            <h2>{{ translations['gallery_lessons_title'] }}</h2>
+        </div>
+        
+        <div class="gallery-container">
+            <!-- Gallery Items -->
+
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/nauka-plywania-dziecko.jpg') }}" alt="Nauka Pływania dla Dzieci" class="img-fluid">
+            </div>
+
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/nauka-plywania-z-Emilia.jpg') }}" alt="Nauka pływania" class="img-fluid">
+            </div>
+            
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/IMG_3046.jpg') }}" alt="Instruktor Emilia z uczniem" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="wave-divider wave-divider-dark">
+  <svg viewBox="0 20 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+    <path fill="#B3E5FC" d="M0,50 C360,-30 1080,130 1440,50 L1440,100 L0,100 Z"></path>
   </svg>
 </div>
 

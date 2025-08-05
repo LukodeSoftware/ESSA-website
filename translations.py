@@ -67,6 +67,7 @@ def get_translations(lang):
 
             # Gallery
             'gallery_title': "Gallery",
+            'gallery_lessons_title': "Lessons",
             'gallery_subtitle': "Images from our lessons, competitions, and trainings",
 
             # About Me
@@ -308,6 +309,7 @@ def get_translations(lang):
 
             # Gallery
             'gallery_title': "Galeria",
+            'gallery_lessons_title': "Zajęcia",
             'gallery_subtitle': "Zdjęcia z naszych lekcji, zawodów i treningów",
 
             # About Me
