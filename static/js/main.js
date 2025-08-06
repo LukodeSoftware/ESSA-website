@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const msgBox = document.getElementById('formMessage');
                     msgBox.style.display = 'block';
                     msgBox.className = 'alert alert-success mt-3'; // Bootstrap green alert
-                    msgBox.textContent = '✅ Your message has been sent successfully!';
+                    msgBox.textContent = window.translations.successMessage;
                     
                     contactForm.reset();
                     contactForm.classList.remove('was-validated');
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const msgBox = document.getElementById('formMessage');
                     msgBox.style.display = 'block';
                     msgBox.className = 'alert alert-danger mt-3'; // Bootstrap red alert
-                    msgBox.textContent = '❌ Oops! Something went wrong. Please try again later.';
+                    msgBox.textContent = window.translations.errorMessage;
                 });
         });
     }

@@ -109,7 +109,7 @@
                             <label for="name" class="form-label">{{ translations['contact_name'] }} *</label>
                             {{ form.name(class="form-control", id="name", placeholder=translations['contact_name'], required=True) }}
                             <div class="invalid-feedback">
-                                Please provide your name.
+                                {{ translations['name_validation'] }}
                             </div>
                         </div>
                         
@@ -117,7 +117,7 @@
                             <label for="email" class="form-label">{{ translations['contact_email_field'] }} *</label>
                             {{ form.email(class="form-control", id="email", type="email", placeholder=translations['contact_email_field'], required=True) }}
                             <div class="invalid-feedback">
-                                Please provide a valid email address.
+                                {{ translations['email_validation'] }}
                             </div>
                         </div>
 
@@ -125,7 +125,7 @@
                             <label for="phone" class="form-label">{{ translations['contact_phone_field'] }} *</label>
                             {{ form.phone(class="form-control", id="phone", type="tel", pattern="\\d+", placeholder=translations['contact_phone_field'], required=True) }}
                             <div class="invalid-feedback">
-                                Please provide your phone number (digits only).
+                                {{ translations['phone_validation'] }}
                             </div>
                         </div>
 
@@ -134,7 +134,7 @@
                             <label for="message" class="form-label">{{ translations['contact_message'] }} *</label>
                             {{ form.message(class="form-control", id="message", placeholder=translations['contact_message'], rows=5, required=True) }}
                             <div class="invalid-feedback">
-                                Please provide a message.
+                                {{ translations['message_validation'] }}
                             </div>
                         </div>
                         

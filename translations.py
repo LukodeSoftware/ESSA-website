@@ -172,6 +172,14 @@ def get_translations(lang):
             'schedule_available': "Available",
             'schedule_info': "To book a specific time slot, please contact us by phone or email, or fill out the contact form.",
 
+            # Contact form
+            'name_validation': "Please provide your name.",
+            'email_validation': "Please provide a valid email address.",
+            'phone_validation': "Please provide your phone number (digits only).",
+            'message_validation': "Please provide a message.",
+            'form_success': "✅ Your message has been sent successfully!",
+            'form_error': "❌ Oops! Something went wrong. Please try again later.",
+
             # Footer
             'footer_privacy': "Privacy Policy",
             'footer_copyright': "© 2025 ESSA Emi's Swim School Academy",
@@ -412,6 +420,14 @@ def get_translations(lang):
             'schedule_sunday_hours': "12:00 - 20:00",
             'schedule_available': "Dostępne",
             'schedule_info': "Aby zarezerwować konkretny termin, prosimy o kontakt telefoniczny, mailowy lub wypełnienie formularza kontaktowego.",
+
+            # Contact form
+            'name_validation': "Proszę podać imię i nazwisko.",
+            'email_validation': "Proszę podać prawidłowy adres e-mail.",
+            'phone_validation': "Proszę podać numer telefonu (tylko cyfry).",
+            'message_validation': "Proszę wpisać wiadomość.",
+            'form_success': "✅ Twoja wiadomość została pomyślnie wysłana!",
+            'form_error': "❌ Ups! Coś poszło nie tak. Spróbuj ponownie później.",
 
             # Footer
             'footer_privacy': "Polityka prywatności",

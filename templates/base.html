@@ -215,6 +215,13 @@
     <!-- Google Maps API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
     
+    <script>
+    window.translations = {
+        successMessage: "{{ translations['form_success'] }}",
+        errorMessage: "{{ translations['form_error'] }}"
+    };
+    </script>
+
     <!-- Custom JS -->
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
     
