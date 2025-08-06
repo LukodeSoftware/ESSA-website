@@ -102,12 +102,12 @@
                 <div class="contact-form-wrapper bg-light-blue p-4 rounded">
                     <h3 class="mb-4" id="contact-form-title">{{ translations['contact_form_title'] }}</h3>
                     
-                    <form id="contactForm" action="{{ url_for('contact') }}" method="POST" class="contact-form needs-validation" novalidate>
+                    <form id="contactForm" class="contact-form needs-validation" novalidate>
                         {{ form.csrf_token }}
                         
                         <div class="mb-3">
                             <label for="name" class="form-label">{{ translations['contact_name'] }} *</label>
-                            {{ form.name(class="form-control", placeholder=translations['contact_name'], required=True) }}
+                            {{ form.name(class="form-control", id="name", placeholder=translations['contact_name'], required=True) }}
                             <div class="invalid-feedback">
                                 Please provide your name.
                             </div>
@@ -115,23 +115,24 @@
                         
                         <div class="mb-3">
                             <label for="email" class="form-label">{{ translations['contact_email_field'] }} *</label>
-                            {{ form.email(class="form-control", placeholder=translations['contact_email_field'], required=True) }}
+                            {{ form.email(class="form-control", id="email", type="email", placeholder=translations['contact_email_field'], required=True) }}
                             <div class="invalid-feedback">
                                 Please provide a valid email address.
                             </div>
                         </div>
-                        
+
                         <div class="mb-3">
                             <label for="phone" class="form-label">{{ translations['contact_phone_field'] }} *</label>
-                            {{ form.phone(class="form-control", placeholder=translations['contact_phone_field'], required=True) }}
+                            {{ form.phone(class="form-control", id="phone", type="tel", pattern="\\d+", placeholder=translations['contact_phone_field'], required=True) }}
                             <div class="invalid-feedback">
-                                Please provide your phone number.
+                                Please provide your phone number (digits only).
                             </div>
                         </div>
+
                         
                         <div class="mb-3">
                             <label for="message" class="form-label">{{ translations['contact_message'] }} *</label>
-                            {{ form.message(class="form-control", placeholder=translations['contact_message'], rows=5, required=True) }}
+                            {{ form.message(class="form-control", id="message", placeholder=translations['contact_message'], rows=5, required=True) }}
                             <div class="invalid-feedback">
                                 Please provide a message.
                             </div>
@@ -140,7 +141,12 @@
                         <button type="submit" class="btn contact-form-btn w-100">
                             <i class="fas fa-paper-plane me-2"></i>{{ translations['contact_submit'] }}
                         </button>
+
+                        <!-- Success / Error message -->
+                        <div id="formMessage" class="mt-3" style="display: none;"></div>
                     </form>
+
+
                 </div>
             </div>
         </div>

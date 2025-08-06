@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     'use strict';
 
+    // Initialize EmailJS
+    emailjs.init("hjbFuooL8G36rR4N9");
+
     // Navbar shrink on scroll
     const navbar = document.querySelector('.navbar');
     
@@ -34,8 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var toastList = toastElList.map(function(toastEl) {
         return new bootstrap.Toast(toastEl);
     });
-
-    // Show toasts if they exist
     toastList.forEach(toast => toast.show());
 
     // Gallery Lightbox
@@ -66,17 +67,37 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Form validation
+    // Form validation + EmailJS integration
     const contactForm = document.getElementById('contactForm');
     
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent normal form submit
+
             if (!contactForm.checkValidity()) {
-                e.preventDefault();
                 e.stopPropagation();
+                contactForm.classList.add('was-validated');
+                return;
             }
-            
+
             contactForm.classList.add('was-validated');
+
+            // EmailJS send
+            emailjs.sendForm("service_0bg4umd", "template_fqzrvv8", this)
+                .then(function() {
+                    const msgBox = document.getElementById('formMessage');
+                    msgBox.style.display = 'block';
+                    msgBox.className = 'alert alert-success mt-3'; // Bootstrap green alert
+                    msgBox.textContent = '✅ Your message has been sent successfully!';
+                    
+                    contactForm.reset();
+                    contactForm.classList.remove('was-validated');
+                }, function(error) {
+                    const msgBox = document.getElementById('formMessage');
+                    msgBox.style.display = 'block';
+                    msgBox.className = 'alert alert-danger mt-3'; // Bootstrap red alert
+                    msgBox.textContent = '❌ Oops! Something went wrong. Please try again later.';
+                });
         });
     }
 
@@ -93,12 +114,10 @@ document.addEventListener('DOMContentLoaded', function() {
             const elementTopPosition = element.offsetTop;
             const elementBottomPosition = elementTopPosition + elementHeight;
             
-            // Check if element is in view
             if (
                 (elementBottomPosition >= windowTopPosition) &&
                 (elementTopPosition <= windowBottomPosition)
             ) {
-                // Add the class that triggers the animation
                 if (element.classList.contains('animate__fadeIn')) {
                     element.classList.add('animate__fadeIn');
                 } else if (element.classList.contains('animate__fadeInUp')) {
@@ -114,7 +133,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Check if elements are in view on page load and scroll
     checkIfInView();
     window.addEventListener('scroll', checkIfInView);
 });

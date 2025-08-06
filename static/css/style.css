@@ -129,7 +129,7 @@ a:hover {
 /* Navbar */
 .navbar {
   transition: all 0.3s ease;
-  padding: 15px 0;
+  padding: 10px 0;
   background: white;
 }
 
@@ -187,7 +187,7 @@ a:hover {
 }
 
 .navbar-shrink {
-  padding: 10px 0;
+  padding: 5px 0;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Keep shadow */
   background-color: var(--white);
 }
