@@ -4,7 +4,7 @@
 
 {% block content %}
 <!-- Page Banner -->
-<div class="hero-section hero">
+<div class="hero-section hero" id="hero-gallery">
     <div class="container">
         <div class="hero-content">
             <h1 class="animate__animated animate__fadeInDown">{{ translations['gallery_title'] }}</h1>
@@ -101,7 +101,6 @@
         
         <div class="gallery-container">
             <!-- Gallery Items -->
-
             <div class="gallery-item">
                 <img src="{{ url_for('static', filename='images/nauka-plywania-dziecko.jpg') }}" alt="Nauka Pływania dla Dzieci" class="img-fluid">
             </div>

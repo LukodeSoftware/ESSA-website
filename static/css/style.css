@@ -223,9 +223,25 @@ a:hover {
   display: flex;
   align-items: center;
   color: var(--white);
-  background-image: url('/static/images/Emilka.jpg');
+  background-image: url('/static/images/new_images/IMG_4448.jpeg');
   background-size: cover;
   background-position: center bottom 0;
+}
+
+#hero-about {
+    background-image: url('/static/images/new_images/IMG_4462_cropped.jpeg');
+}
+
+#hero-gallery {
+    background-image: url('/static/images/new_images/IMG_4451.jpeg');
+}
+
+#hero-pricing {
+    background-image: url('/static/images/new_images/IMG_4454.jpeg');
+}
+
+#hero-contact {
+    background-image: url('/static/images/new_images/IMG_4467.jpeg');
 }
 
 
