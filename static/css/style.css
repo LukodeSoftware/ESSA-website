@@ -223,7 +223,7 @@ a:hover {
   display: flex;
   align-items: center;
   color: var(--white);
-  background-image: url('/static/images/new_images/IMG_4448.jpeg');
+  background-image: url('/static/images/new_images/IMG_4451.jpeg');
   background-size: cover;
   background-position: center bottom 0;
 }
@@ -233,15 +233,17 @@ a:hover {
 }
 
 #hero-gallery {
-    background-image: url('/static/images/new_images/IMG_4451.jpeg');
+    background-image: url('/static/images/new_images/IMG_4448.jpeg');
 }
 
 #hero-pricing {
     background-image: url('/static/images/new_images/IMG_4454.jpeg');
+    background-position: center;
 }
 
 #hero-contact {
     background-image: url('/static/images/new_images/IMG_4467.jpeg');
+    background-position: center;
 }
 
 
