@@ -86,7 +86,7 @@ def get_translations(lang):
             'about_description8': """If you want to learn to swim in a professional yet relaxed way, I warmly invite you to ESSA Warsaw!""",
             'about_achievements': "Achievements",
             'about_experience': "Teaching Experience",
-            'testimonials_title': "Testimonials",
+            'testimonials_title': "Reviews",
 
             # Achievements
             'achievement1': "Multiple-time medalist at the Polish Championships",
